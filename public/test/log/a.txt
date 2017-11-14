@@ -1,0 +1,89 @@
+
+2017-07-22 16:40:32
+Array
+(
+    [0] => Array
+        (
+            [id] => 2875
+            [game_id] => 1
+            [total] => 3
+            [bet_num] => 1
+            [volume_id] => 55506
+            [bet_money] => 3
+            [user_id] => 313
+            [bet_order_id] => 356
+            [created] => 2017-07-22 00:00:00
+            [created_flag] => 6
+        )
+
+    [1] => Array
+        (
+            [id] => 2876
+            [game_id] => 1
+            [total] => 3
+            [bet_num] => 1
+            [volume_id] => 55506
+            [bet_money] => 3
+            [user_id] => 313
+            [bet_order_id] => 356
+            [created] => 2017-07-22 00:00:00
+            [created_flag] => 6
+        )
+
+)
+
+2017-07-22 16:41:00
+Array
+(
+    [0] => Array
+        (
+            [id] => 2875
+            [game_id] => 1
+            [total] => 3
+            [bet_num] => 1
+            [volume_id] => 55506
+            [bet_money] => 3
+            [user_id] => 313
+            [bet_order_id] => 356
+            [created] => 2017-07-22 00:00:00
+            [created_flag] => 6
+        )
+
+    [1] => Array
+        (
+            [id] => 2876
+            [game_id] => 1
+            [total] => 3
+            [bet_num] => 1
+            [volume_id] => 55506
+            [bet_money] => 3
+            [user_id] => 313
+            [bet_order_id] => 356
+            [created] => 2017-07-22 00:00:00
+            [created_flag] => 6
+        )
+
+)
+
+2017-09-13 23:17:58
+{"winner_num":null,"rat":[],"code":1,"detail":{"order_id":"609","created":"2017-09-13 23:17:06","USER_ID":"318","volume_id":"56682","bet_sum":"500","benifit":"0","winner_num":null,"checked":"0","lottery_num":"0","lottery_time":"2017-09-13 23:17:06","bet_mode_id":"0","game_id":"1","order_from":"1","created_flag":"3"},"bet_detail":[0,3,0,10,0,21,0,36,0,55,0,69,0,75,0,73,0,63,0,45,0,28,0,15,0,6,0,1],"config":{"sum":1000,"item":[1,3,6,10,15,21,28,36,45,55,63,69,73,75,75,73,69,63,55,45,36,28,21,15,10,6,3,1]}}
+2017-09-13 23:19:27
+{"winner_num":"16","rat":[],"code":1,"detail":{"order_id":"609","created":"2017-09-13 23:17:06","USER_ID":"318","volume_id":"56682","bet_sum":"500","benifit":"0","winner_num":"16","checked":"1","lottery_num":"0","lottery_time":"2017-09-13 23:18:00","bet_mode_id":"0","game_id":"1","order_from":"1","created_flag":"3"},"bet_detail":[0,3,0,10,0,21,0,36,0,55,0,69,0,75,0,73,0,63,0,45,0,28,0,15,0,6,0,1],"config":{"sum":1000,"item":[1,3,6,10,15,21,28,36,45,55,63,69,73,75,75,73,69,63,55,45,36,28,21,15,10,6,3,1]}}
+2017-09-13 23:20:03
+{"winner_num":"16","rat":[],"code":1,"detail":{"order_id":"609","created":"2017-09-13 23:17:06","USER_ID":"318","volume_id":"56682","bet_sum":"500","benifit":"0","winner_num":"16","checked":"1","lottery_num":"0","lottery_time":"2017-09-13 23:18:00","bet_mode_id":"0","game_id":"1","order_from":"1","created_flag":"3"},"bet_detail":[0,3,0,10,0,21,0,36,0,55,0,69,0,75,0,73,0,63,0,45,0,28,0,15,0,6,0,1],"config":{"sum":1000,"item":[1,3,6,10,15,21,28,36,45,55,63,69,73,75,75,73,69,63,55,45,36,28,21,15,10,6,3,1]}}
+2017-09-13 23:20:11
+{"winner_num":"20","rat":[],"code":1,"detail":{"order_id":"608","created":"2017-09-13 23:16:39","USER_ID":"318","volume_id":"56681","bet_sum":"399","benifit":"0","winner_num":"20","checked":"1","lottery_num":"0","lottery_time":"2017-09-13 23:17:00","bet_mode_id":"0","game_id":"1","order_from":"1","created_flag":"3"},"bet_detail":[0,2,0,8,0,17,0,29,0,44,0,55,0,60,0,58,0,50,0,36,0,22,0,12,0,5,0,1],"config":{"sum":1000,"item":[1,3,6,10,15,21,28,36,45,55,63,69,73,75,75,73,69,63,55,45,36,28,21,15,10,6,3,1]}}
+2017-09-13 23:20:21
+{"winner_num":"15","rat":[],"code":1,"detail":{"order_id":"606","created":"2017-09-13 23:10:15","USER_ID":"318","volume_id":"56675","bet_sum":"104","benifit":"103","winner_num":"15","checked":"1","lottery_num":"7","lottery_time":"2017-09-13 23:11:00","bet_mode_id":"0","game_id":"1","order_from":"1","created_flag":"3"},"bet_detail":[0,0,1,1,2,2,3,4,5,6,6,7,7,8,8,7,7,6,6,5,4,3,2,2,1,1,0,0],"config":{"sum":1000,"item":[1,3,6,10,15,21,28,36,45,55,63,69,73,75,75,73,69,63,55,45,36,28,21,15,10,6,3,1]}}
+2017-09-13 23:21:48
+{"winner_num":"16","rat":[],"code":1,"detail":{"order_id":"609","created":"2017-09-13 23:17:06","USER_ID":"318","volume_id":"56682","bet_sum":"500","benifit":"0","winner_num":"16","checked":"1","lottery_num":"0","lottery_time":"2017-09-13 23:18:00","bet_mode_id":"0","game_id":"1","order_from":"1","created_flag":"3"},"bet_detail":[0,3,0,10,0,21,0,36,0,55,0,69,0,75,0,73,0,63,0,45,0,28,0,15,0,6,0,1],"config":{"sum":1000,"item":[1,3,6,10,15,21,28,36,45,55,63,69,73,75,75,73,69,63,55,45,36,28,21,15,10,6,3,1]}}
+2017-09-13 23:22:00
+{"winner_num":"16","rat":[],"code":1,"detail":{"order_id":"609","created":"2017-09-13 23:17:06","USER_ID":"318","volume_id":"56682","bet_sum":"500","benifit":"0","winner_num":"16","checked":"1","lottery_num":"0","lottery_time":"2017-09-13 23:18:00","bet_mode_id":"0","game_id":"1","order_from":"1","created_flag":"3"},"bet_detail":[0,3,0,10,0,21,0,36,0,55,0,69,0,75,0,73,0,63,0,45,0,28,0,15,0,6,0,1],"config":{"sum":1000,"item":[1,3,6,10,15,21,28,36,45,55,63,69,73,75,75,73,69,63,55,45,36,28,21,15,10,6,3,1]}}
+2017-09-13 23:24:01
+{"winner_num":"16","rat":[],"code":1,"detail":{"order_id":"609","created":"2017-09-13 23:17:06","USER_ID":"318","volume_id":"56682","bet_sum":"500","benifit":"0","winner_num":"16","checked":"1","lottery_num":"0","lottery_time":"2017-09-13 23:18:00","bet_mode_id":"0","game_id":"1","order_from":"1","created_flag":"3"},"bet_detail":[0,3,0,10,0,21,0,36,0,55,0,69,0,75,0,73,0,63,0,45,0,28,0,15,0,6,0,1],"config":{"sum":1000,"item":[1,3,6,10,15,21,28,36,45,55,63,69,73,75,75,73,69,63,55,45,36,28,21,15,10,6,3,1]}}
+2017-09-13 23:24:20
+{"winner_num":"16","rat":[],"code":1,"detail":{"order_id":"609","created":"2017-09-13 23:17:06","USER_ID":"318","volume_id":"56682","bet_sum":"500","benifit":"0","winner_num":"16","checked":"1","lottery_num":"0","lottery_time":"2017-09-13 23:18:00","bet_mode_id":"0","game_id":"1","order_from":"1","created_flag":"3"},"bet_detail":[0,3,0,10,0,21,0,36,0,55,0,69,0,75,0,73,0,63,0,45,0,28,0,15,0,6,0,1],"config":{"sum":1000,"item":[1,3,6,10,15,21,28,36,45,55,63,69,73,75,75,73,69,63,55,45,36,28,21,15,10,6,3,1]}}
+2017-09-13 23:31:39
+{"winner_num":"16","rat":[],"code":1,"detail":{"order_id":"609","created":"2017-09-13 23:17:06","USER_ID":"318","volume_id":"56682","bet_sum":"500","benifit":"0","winner_num":"16","checked":"1","lottery_num":"0","lottery_time":"2017-09-13 23:18:00","bet_mode_id":"0","game_id":"1","order_from":"1","created_flag":"3"},"bet_detail":[0,3,0,10,0,21,0,36,0,55,0,69,0,75,0,73,0,63,0,45,0,28,0,15,0,6,0,1],"config":{"sum":1000,"item":[1,3,6,10,15,21,28,36,45,55,63,69,73,75,75,73,69,63,55,45,36,28,21,15,10,6,3,1]}}
+2017-09-13 23:33:54
+{"winner_num":"20","rat":[],"code":1,"detail":{"order_id":"608","created":"2017-09-13 23:16:39","USER_ID":"318","volume_id":"56681","bet_sum":"399","benifit":"0","winner_num":"20","checked":"1","lottery_num":"0","lottery_time":"2017-09-13 23:17:00","bet_mode_id":"0","game_id":"1","order_from":"1","created_flag":"3"},"bet_detail":[0,2,0,8,0,17,0,29,0,44,0,55,0,60,0,58,0,50,0,36,0,22,0,12,0,5,0,1],"config":{"sum":1000,"item":[1,3,6,10,15,21,28,36,45,55,63,69,73,75,75,73,69,63,55,45,36,28,21,15,10,6,3,1]}}

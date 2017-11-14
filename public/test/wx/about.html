@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于平台</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css_js/mui.css">
+	</head>
+
+<style>
+	.qrcode{ width: 100%;}
+	p{ text-align: center; margin:10px 16px;}
+	h3{ margin:5px auto 10px auto; text-align: center; font-size: 20px;}
+	h4{ text-align: center; font-size:16px;}
+</style>
+
+	<body>
+		<div class="mui-content">
+			<div class="mui-content-padded">
+				<div class="qrcode">
+					<img id="qrcode" src="images/qrcode.png" width="100%" />
+				</div>
+				<h3>软件名称</h3>
+				<p>四川荞一方食品有限公司</p>
+				<p>通过封装多webview、启动原生动画，使得mui成为目前最接近原生体验的前端框架，更多详细介绍，请到mui官网查看</p>
+				<p style="margin-top: 25px;">客服电话</p>	
+				<h4>400 060 4677</h4>	
+			</div>
+		</div>
+		<script src="css_js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init({
+				swipeBack: true //启用右滑关闭功能
+			});
+		</script>
+	</body>
+
+</html>

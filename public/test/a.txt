@@ -1,0 +1,6 @@
+Array
+(
+    [sum] => 0
+    [item] => {}
+    [volume_id] => 2176638
+)

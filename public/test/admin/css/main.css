@@ -1,0 +1,80 @@
+.nav-side, ul{
+
+    padding-left: 20px;
+
+}
+#nav-side{
+    float: left;
+
+
+}
+.nav-side li{
+
+  margin: 0;
+
+list-style-type: none;
+}
+.nav-side a{
+    display: block;
+   cursor: pointer;
+    height: 40px;
+    width: 160px;
+    font-size: 14px;
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #4A515B;
+
+
+
+}
+.nav-side a.active , .nav-side a:hover{
+    text-decoration-line: none;
+    background: #3C4049;
+    color: #FFFFFF;
+}
+
+#content{
+    margin-left: 230px;
+
+
+}
+#user_list{
+    vertical-align: middle;
+
+
+}
+#param{
+    width: 600px;
+
+}
+#param span{
+    display: inline-block;
+    width: 80px;
+
+
+}
+
+.bet_mode a{
+    display: inline-block;
+    border: solid 1px;
+    margin-left: 10px;
+    width: 80px;
+
+}
+.bet_times a{
+    display: inline-block;
+    border: solid 1px;
+    margin-left: 10px;
+    width: 80px;
+}
+
+
+
+.mode_active{
+    background-color: red; ;
+    color: floralwhite;
+
+
+}

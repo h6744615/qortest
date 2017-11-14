@@ -1,0 +1,1701 @@
+
+
+/***game****/
+
+#liTimer {
+    width: 320px;
+}
+
+.gnews {
+    width: 295px;
+    text-align: center;
+}
+
+.jrzj {
+    text-align: right;
+    width: 383px;
+}
+
+.Content {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.titles { width:100%; height:160px; background:#FFF; margin-bottom:15px; padding-top:20px;}
+
+.titles2 {
+    margin: 5px auto;
+    width: 1200px;
+    float: left
+}
+
+.titles .nav{ margin:0 auto; width:1200px;}
+
+
+.titles .nav ul li{ float:left; margin:0 5px 10px 4px;}
+.titles .nav li a{ display:inline-block; height:32px; line-height:32px; width:88px; text-align:center; border-radius:3px;}
+.titles .nav li a:hover{ background:#faf1ea; color:#000; border:1px solid #ff7700;}
+.titles .nav li.pick a { color:#fff;}
+
+
+
+.JiSu a { color:#f50; border:1px solid #f50;}
+.JiaNaDa a { color:#0066cc; border:1px solid #06c;}
+.DanDan a { color:#669900; border:1px solid #690;}
+.BeiJing a { color:#cc33cc; border:1px solid #c3c;}
+.PK a { color:#cc6600; border:1px solid #c60;}
+.HanGuo a { color:#666699; border:1px solid #669;}
+.QiTa a { color:#9933cc; border:1px solid #93c;}
+
+
+.titles .nav li.pick a{ background:#f70; color: #fff; border:#f80 1px solid;}
+
+
+.criterion .mode {
+    width: 998px;
+    height: 125px;
+    border: 1px solid #FDCD77;
+    float: left;
+    background: #FFF5C8;
+}
+
+.criterion .mode p {
+    text-indent: 9px;
+    height: 38px;
+    line-height: 38px;
+    width: 998px;
+    float: left;
+}
+
+.criterion .mode ul {
+    padding: 0 9px;
+    float: left;
+}
+
+.criterion .mode ul li {
+    width: 43px;
+    height: 21px;
+    border: 1px solid #fdcd77;
+    float: left;
+    text-align: center;
+    line-height: 21px;
+    margin: 0 4px 5px 0;
+}
+
+.criterion .times {
+    margin: 10px auto 20px auto;
+    width: 1200px;
+}
+
+.criterion .times:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.criterion .times ul.power {
+    background: #fff5c7 none repeat scroll 0 0;
+    border: 2px solid #fdcd77;
+    color: #8b5100;
+    float: left;
+    height: 29px;
+    line-height: 29px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 996px;
+}
+
+.criterion .times .power li {
+    color: #8b5100;
+    float: left;
+    text-align: center;
+    width: 107px;
+}
+
+.criterion .times .power li.ti {
+    background: #000 url("../images/i.fw.png") no-repeat scroll center center;
+    height: 29px;
+    padding: 0;
+    width: 2px;
+}
+
+.criterion .times .power li a {
+    color: #8B5100;
+}
+
+.criterion .times .power li a:hover {
+    text-decoration: underline;
+}
+
+.criterion .total {
+    height: 29px;
+    line-height: 29px;
+    border: 2px solid #FDCD77;
+    float: right;
+    background: #FFF5C7;
+    color: #8B5100;
+}
+
+.criterion .total li {
+    float: left;
+    height: 29px;
+    line-height: 29px;
+    font-size: 13px;
+}
+
+.criterion .total li.t {
+    background: #fff;
+    float: left;
+    width: 130px;
+    height: 29px;
+    line-height: 29px;
+    text-indent: 10px;
+}
+
+.criterion .total li.t i {
+    color: #f00;
+    font-size: 16px;
+}
+
+.criterion .total li a {
+    float: left;
+    width: 89px;
+    height: 29px;
+    background: url(../images/total.fw.png) no-repeat center;
+    color: #fff;
+    text-align: center;
+    text-indent: 0px;
+}
+
+.criterion .total li a:hover {
+    text-decoration: underline;
+}
+
+.criterion .depressed {
+    float: right;
+}
+
+.criterion .depressed li {
+    float: left;
+    width: 44px;
+    height: 31px;
+    border: 1px solid #DCC3A0;
+    background: #FDCD77;
+    margin-right: 3px;
+    border-radius: 3px;
+    line-height: 31px;
+    text-align: center;
+}
+
+.criterion .depressed li.not {
+    margin: 0;
+}
+
+.criterion .depressed li a {
+    color: #8D5100;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.criterion .depressed li a:hover {
+    text-decoration: underline;
+}
+
+.criterion .table {
+    width: 1200px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    clear: both;
+}
+
+.criterion .table_list {
+    width: 593px;
+    float: left;
+}
+
+.criterion .table_list th {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #ccc;
+}
+
+.criterion .table_list td {
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    border-bottom: 1px solid #e0e8f1;
+}
+
+.criterion .table_list td input {
+    border: 1px solid #ccc;
+    background: #fff;
+    height: 28px;
+    text-align: left;
+    padding: 0 4px;
+    color: #f00;
+    font-weight: 600;
+}
+
+
+.criterion .table_list td .number { background:#f50; color: #fff; font-size:15px; width:24px; height:24px; line-height:24px; border-radius:15px; display:block; margin:0 auto; font-weight:normal;text-align: center;}
+
+
+.criterion .table_list td.please i {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(../images/hook.fw.png) no-repeat;
+    cursor: pointer;
+    background-position: 0px 2px;
+}
+
+.criterion .table_list td.please i.yes {
+    background-position: -1px -34px;
+}
+
+.criterion .table_list td a.multiple {
+    background: url(../images/number.fw.png) no-repeat;
+    width: 34px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    color: #000;
+    line-height: 28px;
+    margin-right: 2px;
+}
+
+.criterion .table_list td a.tiple {
+    margin-right: 0;
+}
+
+.criterion .table_list td a.multiple:hover {
+    color: #f00;
+}
+
+.editor {
+    width:1200px;
+    height: 38px;
+    line-height: 38px;
+    background: #fff;
+    text-indent: 10px;
+}
+
+.new {
+    width:1200px; margin:0 auto;
+    height: 48px;
+    line-height: 48px;
+}
+
+.gpeilu {
+    display: block;
+    float: left;
+    * margin-top: 5px;
+}
+
+.gpeilu li {
+    background: #e6afdd none repeat scroll 0 0;
+}
+
+.peilu {
+    width: 70px !important;
+}
+
+.avinput {
+    border: medium none;
+    color:#069;
+    font-size: 16px;
+    height:40px;
+    line-height:40px;
+    padding-left: 2px;
+    width: 85px;
+}
+
+.chipsul {
+    float: left;
+    margin-left:30px;
+
+}
+
+.chipsul li {
+    float: left;
+}
+
+.chipsul li.chips a {
+    display: block;
+    float: left;
+    height: 31px;
+    text-decoration: none;
+    width: 65px;
+    margin-top: 1px;
+}
+
+.chipsul .chips1 {
+    background: url(../images/chips_10000.png) no-repeat scroll center center;
+}
+
+.chipsul .chips2 {
+    background: url(../images/chips_100000.png) no-repeat scroll center center;
+}
+
+.chipsul .chips3 {
+    background: url(../images/chips_500000.png) no-repeat scroll center center;
+}
+
+.chipsul .chips4 {
+    background: url(../images/chips_1000000.png) no-repeat scroll center center;
+}
+
+.chipsul .chips5 {
+    background: url(../images/chips_5000000.png) no-repeat scroll center center;
+}
+
+.times .depressed .sqtzw {
+    width: 70px;
+    margin-left: 4px;
+}
+
+.self {
+    color: #8b5100;
+    float: left;
+    height:30px;
+    line-height:30px;
+}
+.self .avinput{ height:31px; line-height:31px; border-radius:0; font-size:14px; font-weight:bold;}
+.self li {
+    float: left;
+    font-size: 13px;
+    height:30px;
+    line-height:30px;
+}
+.self li a {
+    background:#06C;
+    color: #fff;
+    float: left;
+    height:33px;
+    text-align: center;
+    text-indent: 0;
+    width: 74px;
+}
+.self li a:hover{background:#049;}
+
+/* CSS choice */
+.choice .mode { width:1200px; clear:both; margin:0 auto 10px auto; padding-top:15px; padding-bottom:10px; background: #fff;}
+.choice .mode h2{ height:48px; line-height:48px; font-size:13px; padding-left:30px;}
+.choice .mode ul { margin:0 30px;}
+.choice .mode ul li{ display:inline; font-size:12px;}
+.choice .mode ul li a{ width:54px; height: 26px; border: 1px solid #caddf3; background:#f3f9fe; display:inline-block; text-align: center; line-height: 26px; margin: 0 2px 6px 0; color:#666;}
+.choice .mode ul li a:hover{ border: 1px solid #06C;}
+.choice .mode ul li.pick a{ border: 1px solid #06C; color:#fff; background:#388bdd; font-weight:bold;}
+.choice .mode ul.power li a{ border: 1px solid #e5d79d; background:#fdfaef;}
+.choice .mode ul.power li a:hover{ border: 1px solid #fda204;}
+.choice .mode ul.power li.pick a{ border: 1px solid #fda204; color:#fff; background:#fda204; font-weight:bold;}
+.choice .Editor_but{ background:#FFF; height:45px; padding-top:15px;}
+
+/**
+.choice .times { margin:0 auto 20px auto; width: 1200px; height:55px; background:#FFF;}
+.choice .times ul.power { margin:0 10px 0 30px;}
+.choice .times .power li { float: left; font-size:12px;}
+.choice .times .power li a { width: 46px; height:26px; border: 1px solid #caddf3; display:inline-block; text-align: center; line-height:26px; margin: 0 4px 6px 0; color:#666;}
+.choice .times .power li a:hover{ border: 1px solid #06C;}
+.choice .times .power li.pick a{ border: 1px solid #06C; color:#06C; font-weight:bold;}
+**/
+
+.choice .total {
+    height: 31px;
+    line-height: 31px;
+    border: 1px solid #dcc3a0;
+    float: left;
+    background: #FFF5C7;
+    color: #8B5100;
+    margin-left:14px;
+}
+
+.choice .total li {
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.choice .total li.t {
+    background: #FFF5C7;
+    float: left;
+    width: 170px;
+    height: 29px;
+    line-height: 29px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.choice .total li.t i {
+    color: #f00;
+    font-size: 15px;
+    padding-right: 18px; margin-left:5px;
+    background: url(../images/Coin.png) no-repeat right center;
+}
+
+.choice .total li a {
+    float: left;
+    width:74px;
+    height: 33px; margin-top:-1px; margin-right:-1px;
+    background:#06C;
+    color: #fff;
+    text-align: center;
+}
+
+.choice .total li a:hover { background:#0157ac;}
+
+
+.choice .depressed { float:left; padding-left:30px;}
+.choice .depressed li { float: left; margin-right:5px;}
+.choice .depressed li a { color:#FFF; width:46px; background:#e0e8f1; border-radius:2px; height: 32px; float:left; line-height: 32px; text-align: center; }
+
+.choice .depressed .SH a{ background:#06C;}
+.choice .depressed .SH a:hover{ background:#0157ad;}
+.choice .depressed .QB a{ background:#096;}
+.choice .depressed .QB a:hover{ background:#017a52;}
+.choice .depressed .FX a{ background:#f60;}
+.choice .depressed .FX a:hover{ background:#f50;}
+.choice .depressed .QC a{ background:#C30;}
+.choice .depressed .QC a:hover{ background:#ae2d01;}
+.choice .depressed .SQ a{ background:#8a64d5;}
+.choice .depressed .SQ a:hover{ background:#7950c9;}
+
+.choice .table {
+    width: 1200px;
+    overflow: hidden;
+    margin:0 auto;
+    clear: both;
+}
+
+.choice .table_list {
+    width:596px;
+    float: left;
+}
+
+.choice .table_list th {
+    height:40px;
+    text-align: center;
+    line-height:40px;
+    background: #ccc; color:#000;
+}
+
+.choice .table_list td { height: 48px; text-align: center; line-height: 48px; border-bottom: 1px solid #eee;}
+.choice .table_list td input { height: 28px; text-indent:6px; padding: 0 4px; font-size:14px; font-weight: 600;}
+.choice .table_list td .number { background:#f50; color: #fff; font-size:15px; width:24px; height:24px; line-height:24px; border-radius:15px; display:block; margin:0 auto; font-weight:normal;text-align: center;}
+.choice .table_list td.please i {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(../images/hook.fw.png) no-repeat;
+    cursor: pointer;
+    background-position: 0px 2px;
+}
+
+.choice .table_list td.please i.yes {
+    background-position: -1px -34px;
+}
+
+.choice .table_list td a.multiple {
+    background:#EEE;
+    width: 34px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    color: #000;
+    line-height: 28px;
+    margin-right: 2px;
+}
+
+.choice .table_list td a.tiple {
+    margin-right: 0;
+}
+
+.choice .table_list td a.multiple:hover {
+    color: #f50; background:#DDD;
+}
+
+/**
+.choice .new { width:1200px; height:60px; line-height:60px; background:#FFF; margin:0 auto;}
+.choice .new li { float: left; font-weight:bold; margin-left:30px;}
+
+.choice .new li select {
+    line-height: 26px;
+    height: 26px;
+    width: 110px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.choice .new li input {
+    height: 26px;
+    line-height: 28px;
+    width: 110px;
+    border: 1px solid #ccc;
+    text-indent: 5px;
+    margin-right: 10px;
+}
+
+.choice .new li button { font-size:13px; height: 28px; width: 44px; text-align: center; border: none; cursor: pointer; line-height: 28px; border-radius:3px;}
+.choice .new li #btnchangename{ background:#999; color:#FFF;}
+.choice .new li #btnchangename:hover{ background:#06c;}
+.choice .new li #btnremove{background:none; color:#333;}
+.choice .new li #btnremove:hover{color:#C30;}
+**/
+
+
+.choice .zong {
+    width: 1200px;
+    margin: 10px auto 30px auto;
+    font-weight: 600;
+}
+
+
+/***
+.period{ padding:30px 0; clear:both; height:20px;}
+.period a{ color:#888;float:right; margin-right:20px;}
+.period a:hover{ color:#555;}
+.period .KaiJiang{ width:230px; float:left;}
+.period .KaiJiang span{ margin:-4px 0 0 30px; float:left; background:#ddd; padding:7px 12px;}
+.period .KaiJiang b{ margin:0 4px;}
+.period .pers{ float:left; width:430px; margin-top:-5px;}
+
+.pers em{font-style:normal; color:#f50; font-size:20px; margin:0 20px 0 4px; font-weight:bold;}
+
+.pers b{ background:#f50; display:inline-block; font-size:16px; margin-left:4px; color:#FFF; width:28px; height:28px; text-align:center; line-height:28px; border-radius:15px; font-weight:normal;}
+.pers .ban{ background:#F60; }
+.pers .dui{ background:#093; }
+.pers .za{ background:#C39; }
+.pers .shun{ background:#f70; }
+.pers .Long{ background:#F06;}
+.pers .Hu{ background:#63C;}
+**/
+
+
+.KaiJiang{clear:both; height:100px; width:1198px; margin:0 auto; background:#FFF; border:1px solid #f60; border-top:none;}
+
+.TiShi{ font-weight:normal; float:left; width:435px; height:100px; line-height:100px; margin:0 0 0 25px; color:#444;}
+.TiShi b{ color:#f50;}
+.TiShi em{ font-weight:bold; color:#f50; margin:0 4px; font-size:14px; padding:2px 5px;}
+
+.tongji{ float:left; margin:4px 0 0 0; color:#666; width:560px; text-indent:50px;}
+.tongji p b{ color:#f60;}
+.tongji p{ float:left;}
+.tongji .hongbao{ width:70px; float:right; cursor:pointer;}
+
+.PaiHang_Div{ border-left:1px solid #f80; border-right:1px solid #f80; width:120px; height:80px; padding:9px 20px 10px 20px; float:left;}
+.PaiHang{ background:#fff1e6; color:#867a72; padding:10px 15px; width:90px; text-align:center;}
+.PaiHang b{ border-bottom:1px dashed #f60; margin-bottom:5px; padding-bottom:5px; font-weight:normal; color:#f60; display:block;}
+
+
+.ShuoMing{ float:left; color:#F60; border-bottom:1px solid #f80; width:554px; text-indent:50px; margin:20px 0 10px 0; padding-bottom:12px; padding-right:22px;}
+.tis{ float:right; margin-right:20px; margin-top:10px;}
+.tis li{ float:left; margin-left:10px; height:30px; line-height:30px; font-size:12px;}
+.tis li.open{ background:url(../images/tishi1.png) no-repeat 5px center; cursor:pointer; padding-left:28px;}
+.tis li.shut{ background:url(../images/tishi2.png) no-repeat 5px center; cursor:pointer; padding-left:28px; color:#999;}
+.tis li.yes{ background:url(../images/tishi3.png) no-repeat 5px center; cursor:pointer; padding-left:28px;}
+.tis li.NO{ background:url(../images/tishi4.png) no-repeat 5px center; cursor:pointer; padding-left:28px; color:#999;}
+.tis li.qiandao{ margin-left:35px;}
+.tis li.qiandao a{ background:#096 url(../images/qiandaobtn.png) no-repeat 10px 5px; background-size:16px; border-radius:13px; padding:6px 15px 6px 30px; color:#FFF;}
+.tis li.qiandao a:hover{background-color:#099;}
+
+
+.ties {
+    height: 38px;
+    width: 998px;
+    float: left;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-bottom: 5px;
+}
+
+
+.ties li {
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    color: #656565;
+    text-indent: 10px;
+    margin-right: 0px; /*width: 330px;*/
+}
+
+.ties li i {
+    font-size: 16px;
+    color: #CB0000;
+    padding: 0 3px;
+    font-weight: 600;
+}
+
+.ties li em {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #CB0000;
+}
+
+.ties p {
+    float: right;
+    width: 132px;
+    height: 32px;
+    margin-top: 10px;
+    background: #cb0000;
+    border-radius: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+}
+
+.ties p a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.ties p a:hover {
+    text-decoration: underline;
+}
+
+#PB_Page_Select {
+    height: 25px;
+}
+
+
+.Pattern{ width:1200px; margin: 0 auto;}
+.Pattern .table { width: 1200px; overflow: hidden; margin: 0 auto; clear:both;}
+.Pattern .table_list { width:100%; border-collapse:collapse; border:1px solid #e9e9e9; }
+.Pattern .table_list tr:hover{ background:#fdf6ed;}
+.Pattern .table_list th { height: 40px; line-height: 40px; border:1px solid #e9e9e9; color:#000; font-weight:normal; text-align:center; background:#fff;}
+.Pattern .table_list td { height: 48px; line-height: 48px; border:1px solid #e9e9e9; text-align:center;}
+.Pattern .table_list td.please span { padding-right: 18px; background: url(../images/Coin.png) no-repeat right center;}
+
+
+.Pattern .table_list td.regular { color:#999; font-size:17px; font-weight:bold;}
+.Pattern .table_list td.kong{ color:#f50; font-size:17px; font-weight:bold; letter-spacing:10px;}
+.Pattern .table_list td.regular em{ font-style:normal; color:#f50; font-size:17px; margin:0 4px;}
+.Pattern .table_list td.regular b{ background:#f50; display:inline-block; font-size:15px; margin-left:4px; color:#FFF; width:25px; width:25px; height:25px; text-align:center; line-height:25px; border-radius:15px; font-weight:normal;}
+.Pattern .table_list td.regular a{ margin-left:8px; color:#999; font-size:12px; font-weight:normal;}
+.Pattern .table_list td.regular a:hover{ color:#777;}
+
+.Pattern .table_list td.regular .ban{ background:#F60; }
+.Pattern .table_list td.regular .dui{ background:#093; }
+.Pattern .table_list td.regular .za{ background:#C39; }
+.Pattern .table_list td.regular .shun{ background:#f70; }
+.Pattern .table_list td.regular .Long{ background:#F06;}
+.Pattern .table_list td.regular .Hu{ background:#63C;}
+
+
+
+.Pattern .table_list td.HanGuo_10 em{ color:#666;}
+
+
+
+.Pattern .table_list td em.final {
+    background-position: 0px -500px;
+    height: 22px;
+    width: 22px;
+    position: relative;
+}
+
+.Pattern .table_list td em.finals {
+    background-position: 0px -500px;
+    height: 22px;
+    width: 22px;
+    position: relative;
+}
+
+.Pattern .table_list td em.final i {
+    position: absolute;
+    width: 22px;
+    display: block;
+    height: 22px;
+    text-align: center;
+    color: #fff;
+    top: 0px;
+    left: 0;
+    line-height: 22px;
+}
+
+.Pattern .table_list td .finalbig { color: #fff; font-size:14px; background:#f50; display: inline-block; width:25px; height:25px; line-height:25px; text-align: center; border-radius:15px;}
+
+.Pattern .table_list td.state{ color:#666;}
+.Pattern .table_list td.state a{ background:#f80; color:#FFF; letter-spacing:2px; display:inline-block; width:75px; height:28px; line-height:28px; text-align:center; border-radius:15px; margin-right:-5px;}
+.Pattern .table_list td.state a:hover{ background:#000;}
+.Pattern .table_list td.state span{ background:#096; color:#FFF; display:inline-block; width:75px; height:28px; line-height:28px; text-align:center; border-radius:15px; margin-right:-5px;}
+
+/**
+.Pattern .table_list th.gno{ width:80px;}
+.Pattern .table_list th.gtime{ width:120px;}
+.Pattern .table_list th.regular{ width:290px;}
+.Pattern .table_list th.please{ width:150px;}
+.Pattern .table_list th.Winner{ width:100px;}
+.Pattern .table_list th.ZhongJ{ width:110px;}
+.Pattern .table_list th.state{ width:90px;}
+
+
+
+.Pattern .table_list td.state span {
+    width: 102px;
+    height: 30px;
+    display: inline-block;
+    background: url(../images/but.fw.png) no-repeat;
+}
+
+.Pattern .table_list td.state .open1 {
+    background-position: 0 0;
+}
+
+.Pattern .table_list td.state .open2 {
+    background-position: 0 -40px;
+    cursor: pointer;
+}
+
+.Pattern .table_list td.state .open3 {
+    background-position: 0 -80px;
+}**/
+
+.tzpoints {
+    color: #f60;
+    font-size: 13px;
+}
+
+.tzpoints2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.win {
+    color: #f54545;
+}
+
+.lose {
+    color: #0f990f;
+}
+
+#tbStu .trOdd {
+    background-color: #f7f7f7
+}
+
+.h_nav_over {
+    background-color: #FCFAEC;
+    color: #f4941c;
+}
+
+tr {
+    background-color: #fff
+}
+
+.longhu tr {
+    background: #eeeeee
+}
+
+
+.Winner b{ color:#06c; border-right:1px solid #CCC; padding-right:4px; margin-right:4px;}
+.ZhongJ b{ color:#f50; border-right:1px solid #CCC; padding-right:4px; margin-right:4px;}
+
+
+
+
+.fh {
+    background: url(/img/fh.gif) no-repeat center 100%;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin: 0px 4px;
+    line-height: 40px;
+}
+
+.jh {
+    background-position: 0px 1px;
+}
+
+.skinlist {
+    color: #FFF;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+
+
+
+.Pattern .Paging { margin:0 auto 0 auto; background:#FFF; text-align: center; height:55px; padding-top:30px;}
+
+.Pattern .Paging span {
+    color: #000;
+    margin: 0 5px;
+}
+
+
+.Pattern .Paging a { display: inline-block; padding: 4px 10px; font-size: 12px; color: #000; background:#E3E3E3; margin: 0 2px;}
+.Pattern .Paging a:hover{ background:#d3d3d3;}
+.Pattern .Paging #currentpage{ background:#f80; color:#FFF;}
+
+
+.Pattern .Paging span.pag {
+    color: #cb0000;
+}
+
+.Pattern .Paging span:hover {
+    color: #cb0000;
+}
+
+.Pattern .titles, .choice .titles, .Edit .titles, .trend .titles, .criterion .titles {
+    margin: 5px auto;
+    width: 1200px;
+    float: left
+}
+
+.Pattern .titles ul.nav {
+    float: left;
+    height: 40px;
+    width: 1200px;
+    border-bottom: 1px solid #FF6500;
+    padding-top: 20px;
+}
+
+.Pattern .titles ul.nav li {
+    float: left;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    width: 90px;
+    text-align: center;
+    background: url(../images/vam.fw.png) no-repeat center 100%;
+    padding-top: 9px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.Pattern .titles ul.nav li a {
+    color: #fff;
+}
+
+.Pattern .titles ul.nav li a:hover {
+    text-decoration: underline;
+}
+
+.Pattern .titles ul.nav li.pick {
+    background: url(../images/vam_s.fw.png) no-repeat center 100%;
+    height: 39px;
+    padding: 0;
+    line-height: 40px;
+    padding-top: 2px;
+}
+
+.titles ul.list {
+    float: left;
+    width: 1200px;
+    height: 32px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #e64047;
+}
+
+.titles ul.list li {
+    line-height: 32px;
+    text-indent: 10px;
+    color: #e64047;
+}
+
+.titles ul.list li a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.titles ul.list li a:hover {
+    text-decoration: underline;
+}
+
+.titles ul.list li a.pick {
+    color: #ffde00;
+    font-weight: bold;
+}
+
+.titles ul.last {
+    width: 1200px;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    border-top: 1px solid #ccc;
+}
+
+.titles ul.last li {
+    float: left;
+    margin: 0 50px 0 30px;
+    font-size: 13px;
+    padding: 3px 0;
+    height: 32px;
+    line-height: 32px;
+}
+
+.titles ul.last li span {
+    display: inline-block;
+    background: url(../images/lottery.fw.png);
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.Edit .mode {
+    width: 1200px;
+    height: 98px;
+    border: 1px solid #FDCD77;
+    float: left;
+    background: #FFF5C8;
+}
+
+.Edit .mode p {
+    text-indent: 9px;
+    height: 38px;
+    line-height: 38px;
+    width: 998px;
+}
+
+.Edit .mode ul {
+    padding: 0 9px;
+}
+
+.Edit .mode ul li {
+    width: 43px;
+    height: 21px;
+    border: 1px solid #fdcd77;
+    float: left;
+    text-align: center;
+    line-height: 21px;
+    margin: 0 4px 5px 0;
+}
+
+.Edit .times {
+    margin: 10px 0px 20px 0;
+    width: 1200px;
+    float: left;
+}
+
+.Edit .times ul.power {
+    height: 29px;
+    line-height: 29px;
+    border: 2px solid #FDCD77;
+    float: left;
+    background: #FFF5C7;
+    color: #8B5100;
+    margin-right: 5px;
+}
+
+.Edit .times .power li {
+    float: left;
+    color: #8B5100;
+    width: 38px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.Edit .times .power li.ti {
+    background: url(../images/i.fw.png) no-repeat center;
+    width: 2px;
+    height: 29px;
+    padding: 0;
+}
+
+.Edit .times .power li a {
+    color: #8B5100;
+}
+
+.Edit .times .power li a:hover {
+    text-decoration: underline;
+}
+
+.Edit .total {
+    height: 31px;
+    line-height: 31px;
+    border: 1px solid #dcc3a0;
+    float: right;
+    background: #FFF5C7;
+    color: #8B5100;
+}
+
+.Edit .total li {
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.Edit .total li.t {
+    background: #FFF5C7;
+    float: left;
+    width: 336px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.Edit .total li.t i {
+    color: #f00;
+    font-size: 16px;
+    padding-right: 18px;
+    background: url(../images/Coin.png) no-repeat right center;
+    font-weight: normal;
+}
+
+.Edit .total li a {
+    float: left;
+    width: 48px;
+    height: 31px;
+    background: url(../images/tal.fw.png) no-repeat center;
+    color: #fff;
+    text-align: center;
+    text-indent: 0px;
+}
+
+.Edit .total li a:hover {
+    text-decoration: underline;
+}
+
+.Edit .depressed {
+    float: left;
+}
+
+.Edit .depressed li {
+    float: left;
+    width: 44px;
+    background: #fff5c7;
+    height: 31px;
+    border: 1px solid #DCC3A0;
+    margin-right: 5px;
+    border-radius: 3px;
+    line-height: 31px;
+    text-align: center;
+}
+
+.Edit .depressed li a {
+    color: #8D5100;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.Edit .depressed li a:hover {
+    text-decoration: underline;
+}
+
+.Edit .table {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    clear: both;
+}
+
+.Edit .table_list {
+    width: 1200px;
+    float: left;
+}
+
+.Edit .table_list th {
+    height:40px; text-align:left; padding-left:30px;
+    line-height:40px;
+    background: #ccc;
+}
+
+.Edit .table_list td {
+    height: 45px;
+    line-height: 45px;
+    background: #fff; padding-left:30px;
+    border-bottom: 1px solid #EEE;
+}
+
+.Edit .table_list td input {
+    width: 150px;
+    border: 1px solid #ccc;
+    background: #fff;
+    height: 26px;
+    text-align: right;
+    padding: 0 4px;
+    color: #f00;
+    font-weight: 600;
+}
+
+.Edit .table_list td.number {
+    background: url(../images/lottery.fw.png) no-repeat center;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Edit .table_list td.please i {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(../images/hook.fw.png) no-repeat;
+    cursor: pointer;
+    background-position: 0px 2px;
+}
+
+.Edit .table_list td.please i.yes {
+    background-position: -1px -34px;
+}
+
+.Edit .table_list td a.multiple {
+    background: url(../images/numbers.fw.png) no-repeat;
+    width: 49px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    color: #000;
+    line-height: 28px;
+    margin-left: 5px;
+}
+
+.Edit .table_list td a.multiple:hover {
+    color: #f00;
+}
+
+
+.Edit .new,.criterion .new {
+    width: 1020px; background:#FFF; padding-left:30px;
+    height:50px;
+    line-height:50px; display:block;
+}
+
+.Edit .new li, .criterion .new li {
+    float: left; margin-right:20px;
+}
+
+.Edit .new li select, .criterion .new li select {
+    line-height: 26px;
+    height: 26px;
+    width: 110px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.Edit .new li input, .criterion .new li input {
+    height: 26px;
+    line-height: 28px;
+    width: 80px;
+    border: 1px solid #ccc;
+    text-indent: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.Edit .new li button, .criterion .new li button {
+    height: 28px;
+    background: url(../images/numbers.fw.png) no-repeat;
+    width: 49px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.Edit .new li button:hover, .criterion .new li button:hover {
+    text-decoration: underline;
+}
+
+.Edit .zong {
+    width: 1200px;
+    margin: 10px auto 30px auto;
+    font-weight: 600;
+}
+
+.Edit .tims, .criterion .tims {
+    width: 998px;
+    margin: 20px auto 50px auto;
+    clear: both;
+}
+
+.Edit .tims p, .criterion .tims p {
+    height: 30px;
+    line-height: 30px;
+}
+
+.Edit .tial, .criterion .tial {
+    float: left;
+    width:1200px;
+    text-align: center;
+    background: #fff;
+    padding: 20px 0;
+}
+
+
+.Edit .tial a{ color:#666;}
+.Edit .tial a:hover{ color:#333;}
+.Edit .tial .btn, .criterion .tial .btn { background:#f70; border-radius:3px; line-height: 33px; text-align: center; width:90px; display:inline-block; margin-right:5px; color: #fff;cursor: pointer;}
+.Edit .tial .btn:hover, .criterion .tial .btn:hover {background:#000; color:#FFF;}
+
+.Edit .tial span.ifo, .criterion .tial span.ifo {
+    height: 16px;
+    line-height: 16px;
+}
+
+.Edit .tial span.ifo a, .criterion .tial span.ifo a {
+    float: left;
+    color: #000;
+    margin-top: 12px;
+}
+
+.Edit .tial span.ifo a:hover, .criterion .tial span.ifo a:hover {
+    text-decoration: underline;
+}
+
+/*.Edit .period{ width:998px; height:97px; border:1px solid #ccc; float:left;}
+.Edit .period div{ width:205px; height:47px; background:url(../images/tmi.fw.png) no-repeat; text-align:center; padding:25px 0; float:left; }
+.Edit .period div h3{ color:#fff; font-size:21px;}
+.Edit .period div span{ color:#fff; font-size:16px;}
+.Edit .period ul{ width:793px; float:left;}
+.Edit .period ul li{ line-height:48px; height:48px; text-indent:50px; color:#656565; font-size:18px; font-weight:600; }
+.Edit .period ul li.pers{ border-top:1px solid #ccc;}
+
+.Edit .period ul li i{ color:#CB0000; font-size:24px; margin-right:70px;}
+.Edit .period ul li em{ font-style:normal; color:#fff; font-size:21px; background:url(../images/lottery.fw.png) no-repeat; display:inline-block; width:33px; height:32px; text-indent:0px;  margin-top:6px; line-height:32px; text-align:center; }*/
+/*.Edit .ties{ height:52px; width:1000px; float:left; }
+.Edit .ties ul{ float:left; height:52px; line-height:52px;}
+.Edit .ties ul li{ float:left; height:52px; line-height:52px; font-size:14px; color:#656565; text-indent:10px; margin-right:50px; }
+.Edit .ties ul li i{ font-size:16px; color:#000; padding:0 3px; font-weight:600;}
+.Edit .ties ul li em{ font-style:normal; font-weight:600; font-size:16px; color:#CB0000;}
+
+.Edit .ties p{ float:right; width:132px; height:32px; margin-top:10px; background:#cb0000; border-radius:16px; line-height:32px; text-align:center; color:#fff;}
+.Edit .ties p a{color:#fff; font-size:16px; }
+.Edit .ties p a:hover{ text-decoration:underline; }
+*/
+
+
+/**
+.lh0 {
+    background: url(../images/dragon.png) no-repeat center center;
+    width: 45px;
+    height: 33px
+}
+
+.lh1 {
+    background: url(../images/tiger.png) no-repeat center center;
+    width: 45px;
+    height: 33px
+}
+
+.et {
+    margin: 2px auto;
+}
+
+.Pattern .table_list td em.slh0 {
+    background: url(../images/sdragon.png) no-repeat center center;
+    width: 22px;
+    height: 22px
+}
+
+.Pattern .table_list td em.slh1 {
+    background: url(../images/stiger.png) no-repeat center center;
+    width: 22px;
+    height: 22px
+}
+
+.period ul li em.lh0 {
+    background: url(../images/dragon.png) no-repeat center center;
+    width: 45px;
+    height: 33px;
+    vertical-align: middle;
+    margin: 0px 0 8px 0;
+    * margin: 0px;
+}
+
+.period ul li em.lh1 {
+    background: url(../images/tiger.png) no-repeat center center;
+    width: 45px;
+    height: 33px;
+    vertical-align: middle;
+    margin: 0px 0 8px 0;
+    * margin: 0px;
+}
+**/
+
+.selmodel {
+    height: 35px;
+    width: 150px;
+}
+
+.criterion .buttons {
+    background: #fff5c7 none repeat scroll 0 0;
+    border: 2px solid #fdcd77;
+    color: #8b5100;
+    float: left;
+    height: 29px;
+    line-height: 29px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.criterion .buttons li {
+    float: left;
+}
+
+.yu_money {
+    border: medium none;
+    color: #f00;
+    float: left;
+    font-size: 16px;
+    height: 29px;
+    line-height: 29px;
+    padding-left: 2px;
+    width: 100px;
+}
+
+.criterion .table_list td.numberw {
+    background:#f50;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+.Pattern .table_list td.he {
+    color: #656565;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Pattern .table_list td.zhedx {
+    color: #018796;
+}
+
+.Pattern .table_list td.zhelh {
+    color: #c00;
+}
+
+.Pattern .table_list td.qs {
+    color: #f00;
+}
+
+.Pattern .table_list td.zs {
+    color: #00f;
+}
+
+.Pattern .table_list td.hs {
+    color: #fd00ff;
+}
+
+.Pattern .table_list td.sc1 {
+    color: #f00;
+}
+
+.Pattern .table_list td.sc2 {
+    color: #00c6ff;
+}
+
+.sgamerule td {
+    font-size: 13px !important;
+    line-height: 28px !important;
+}
+
+.sgamerule td.content {
+    padding: 20px 50px 50px;
+}
+
+
+.longhu tr td {
+    font-size: 10px !important;
+    height: 15px !important;
+    line-height: 15px !important;
+    background: #eeeeee;
+}
+
+.longhunum td {
+    width: 40px !important;
+}
+
+.kjhmspan .kjnhidden {
+    display: inline-block;
+}
+
+.kjhmspan em.kjnhidden {
+    background: url("../images/word.fw.png") no-repeat scroll 0 0;
+    display: inline-block;
+    font-style: normal;
+    height: 21px;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 0 1px;
+    text-indent: 0;
+    width: 21px;
+    word-spacing: normal;
+    margin-top: 8px;
+    * margin-left: 13px
+}
+/***
+.kjhmspan em.regular01, .kjhmspan em.regular1 {
+    background-position: 0px 0px;
+}
+
+.kjhmspan em.regular02, .kjhmspan em.regular2 {
+    background-position: 0px -25px;
+}
+
+.kjhmspan em.regular03, .kjhmspan em.regular3 {
+    background-position: 0px -50px;
+}
+
+.kjhmspan em.regular04, .kjhmspan em.regular4 {
+    background-position: 0px -75px;
+}
+
+.kjhmspan em.regular05, .kjhmspan em.regular5 {
+    background-position: 0px -100px;
+}
+
+.kjhmspan em.regular06, .kjhmspan em.regular6 {
+    background-position: 0px -125px;
+}
+
+.kjhmspan em.regular07, .kjhmspan em.regular7 {
+    background-position: 0px -150px;
+}
+
+.kjhmspan em.regular08, .kjhmspan em.regular8 {
+    background-position: 0px -175px;
+}
+
+.kjhmspan em.regular09, .kjhmspan em.regular9 {
+    background-position: 0px -200px;
+}
+
+.kjhmspan em.regular10 {
+    background-position: 0px -225px;
+}
+
+.popup-body .table_list td em {
+    vertical-align: middle;
+}
+
+.popup-body .table_list td em.regular01, .popup-body .table_list td em.regular1 {
+    background-position: 0px 0px;
+}
+
+.popup-body .table_list td em.regular02, .popup-body .table_list td em.regular2 {
+    background-position: 0px -25px;
+}
+
+.popup-body .table_list td em.regular03, .popup-body .table_list td em.regular3 {
+    background-position: 0px -50px;
+}
+
+.popup-body .table_list td em.regular04, .popup-body .table_list td em.regular4 {
+    background-position: 0px -75px;
+}
+
+.popup-body .table_list td em.regular05, .popup-body .table_list td em.regular5 {
+    background-position: 0px -100px;
+}
+
+.popup-body .table_list td em.regular06, .popup-body .table_list td em.regular6 {
+    background-position: 0px -125px;
+}
+
+.popup-body .table_list td em.regular07, .popup-body .table_list td em.regular7 {
+    background-position: 0px -150px;
+}
+
+.popup-body .table_list td em.regular08, .popup-body .table_list td em.regular8 {
+    background-position: 0px -175px;
+}
+
+.popup-body .table_list td em.regular09, .popup-body .table_list td em.regular9 {
+    background-position: 0px -200px;
+}
+
+.popup-body .table_list td em.regular10 {
+    background-position: 0px -225px;
+}**/
+
+td.regular em.number, .result .num {
+    background: url("/img/ball-nc.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 33px;
+    line-height: 20px;
+    margin: 2px 1px 0px 0;
+    padding: 0;
+    width: 32px;
+}
+
+td.regular em.number {
+    vertical-align: middle;
+    margin-top: 0;
+}
+/**
+td.regular em.num01, .result .num01, .popup-body .table_list td label.num01 {
+    background-position: 0 0;
+}
+
+td.regular em.num02, .result .num02, .popup-body .table_list td label.num02 {
+    background-position: 0 -34px;
+}
+
+td.regular em.num03, .result .num03, .popup-body .table_list td label.num03 {
+    background-position: 0 -66px;
+}
+
+td.regular em.num04, .result .num04, .popup-body .table_list td label.num04 {
+    background-position: 0 -99px;
+}
+
+td.regular em.num05, .result .num05, .popup-body .table_list td label.num05 {
+    background-position: 0 -134px;
+}
+
+td.regular em.num06, .result .num06, .popup-body .table_list td label.num06 {
+    background-position: 0 -165px;
+}
+
+td.regular em.num07, .result .num07, .popup-body .table_list td label.num07 {
+    background-position: 0 -198px;
+}
+
+td.regular em.num08, .result .num08, .popup-body .table_list td label.num08 {
+    background-position: 0 -231px;
+}
+
+td.regular em.num09, .result .num09, .popup-body .table_list td label.num09 {
+    background-position: 0 -264px;
+}
+
+td.regular em.num10, .result .num10, .popup-body .table_list td label.num10 {
+    background-position: 0 -298px;
+}
+
+td.regular em.num11, .result .num11, .popup-body .table_list td label.num11 {
+    background-position: 0 -331px;
+}
+
+td.regular em.num12, .result .num12, .popup-body .table_list td label.num12 {
+    background-position: 0 -365px;
+}
+
+td.regular em.num13, .result .num13, .popup-body .table_list td label.num13 {
+    background-position: 0 -396px;
+}
+
+td.regular em.num14, .result .num14, .popup-body .table_list td label.num14 {
+    background-position: 0 -429px;
+}
+
+td.regular em.num15, .result .num15, .popup-body .table_list td label.num15 {
+    background-position: 0 -462px;
+}
+
+td.regular em.num16, .result .num16, .popup-body .table_list td label.num16 {
+    background-position: 0 -494px;
+}
+
+td.regular em.num17, .result .num17, .popup-body .table_list td label.num17 {
+    background-position: 0 -529px;
+}
+
+td.regular em.num18, .result .num18, .popup-body .table_list td label.num18 {
+    background-position: 0 -561px;
+}
+
+td.regular em.num19, .result .num19, .popup-body .table_list td label.num19 {
+    background-position: 0 -594px;
+}
+
+td.regular em.num20, .result .num20, .popup-body .table_list td label.num20 {
+    background-position: 0 -627px;
+}**/
+
+.result .sbnum, td.regular em.sbnumber {
+    width: 25px;
+    height: 25px;
+    background: url(/img/ball-k3.png) no-repeat;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 10px
+}
+
+td.regular em.sbnumber {
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-top: 0;
+}
+/**
+.result .sbnum1, td.regular em.sbnum1 {
+    background-position: 0 0
+}
+
+.result .sbnum2, td.regular em.sbnum2 {
+    background-position: 0 -25px
+}
+
+.result .sbnum3, td.regular em.sbnum3 {
+    background-position: 0 -50px
+}
+
+.result .sbnum4, td.regular em.sbnum4 {
+    background-position: 0 -75px
+}
+
+.result .sbnum5, td.regular em.sbnum5 {
+    background-position: 0 -100px
+}
+
+.result .sbnum6, td.regular em.sbnum6 {
+    background-position: 0 -125px
+}
+
+.result .sbnum01, td.regular em.sbnum01 {
+    background-position: 0 0
+}
+
+.result .sbnum02, td.regular em.sbnum02 {
+    background-position: 0 -25px
+}
+
+.result .sbnum03, td.regular em.sbnum03 {
+    background-position: 0 -50px
+}
+
+.result .sbnum04, td.regular em.sbnum04 {
+    background-position: 0 -75px
+}
+
+.result .sbnum05, td.regular em.sbnum05 {
+    background-position: 0 -100px
+}
+
+.result .sbnum06, td.regular em.sbnum06 {
+    background-position: 0 -125px
+}**/
+
+
+#nav_list{ background:#fff; width:1200px; margin:0 auto;}
+.kjtitlel{ float:left; width:100%; border-bottom:1px solid #f70; background:#fff; letter-spacing:0;}
+.kjtitlel .nav_title{ float:left;}
+.kjtitlel .nav_title li{ float:left;}
+.kjtitlel .nav_title li a{ float:left; display:inline-block; height:50px; line-height:50px; padding:0 18px; font-weight:bold; color:#444;}
+.kjtitlel .nav_title li a:hover{ color:#f60;}
+.kjtitlel .nav_title li a.pick{ background:#f70; color:#FFF;}
+
+
+
+
+.JieGuo{ background:#fff3e5;}
+
+
+.DingWwei { float:left; margin-left:100px;}
+
+
+
+
+
+
+
+
+
+

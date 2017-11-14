@@ -1,0 +1,259 @@
+
+2017-07-07 18:13:00
+55175
+2017-07-07 18:13:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55175 
+2017-07-07 18:13:14
+51961
+2017-07-07 18:13:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51961 
+2017-07-07 18:14:00
+55176
+2017-07-07 18:14:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55176 
+2017-07-07 18:14:14
+51962
+2017-07-07 18:14:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51962 
+2017-07-07 18:15:00
+55177
+2017-07-07 18:15:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55177 
+2017-07-07 18:15:14
+51963
+2017-07-07 18:15:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51963 
+2017-07-07 18:16:00
+55178
+2017-07-07 18:16:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55178 
+2017-07-07 18:16:14
+51964
+2017-07-07 18:16:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51964 
+2017-07-07 18:17:00
+55179
+2017-07-07 18:17:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55179 
+2017-07-07 18:17:14
+51965
+2017-07-07 18:17:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51965 
+2017-07-07 18:18:00
+55180
+2017-07-07 18:18:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55180 
+2017-07-07 18:18:14
+51966
+2017-07-07 18:18:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51966 
+2017-07-07 18:19:00
+55181
+2017-07-07 18:19:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55181 
+2017-07-07 18:19:14
+51967
+2017-07-07 18:19:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51967 
+2017-07-07 18:20:00
+55182
+2017-07-07 18:20:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55182 
+2017-07-07 18:20:14
+51968
+2017-07-07 18:20:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51968 
+2017-07-07 18:21:00
+55183
+2017-07-07 18:21:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55183 
+2017-07-07 18:21:14
+51969
+2017-07-07 18:21:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51969 
+2017-07-07 18:22:00
+55184
+2017-07-07 18:22:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55184 
+2017-07-07 18:22:14
+51970
+2017-07-07 18:22:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51970 
+2017-07-07 18:23:00
+55185
+2017-07-07 18:23:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55185 
+2017-07-07 18:23:14
+51971
+2017-07-07 18:23:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51971 
+2017-07-07 18:24:00
+55186
+2017-07-07 18:24:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55186 
+2017-07-07 18:24:14
+51972
+2017-07-07 18:24:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51972 
+2017-07-07 18:25:00
+55187
+2017-07-07 18:25:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55187 
+2017-07-07 18:25:14
+51973
+2017-07-07 18:25:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51973 
+2017-07-07 18:26:00
+55188
+2017-07-07 18:26:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55188 
+2017-07-07 18:26:14
+51974
+2017-07-07 18:26:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51974 
+2017-07-07 18:27:00
+55189
+2017-07-07 18:27:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55189 
+2017-07-07 18:27:14
+51975
+2017-07-07 18:27:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51975 
+2017-07-07 18:28:00
+55190
+2017-07-07 18:28:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55190 
+2017-07-07 18:28:14
+51976
+2017-07-07 18:28:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51976 
+2017-07-07 18:29:00
+55191
+2017-07-07 18:29:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55191 
+2017-07-07 18:29:14
+51977
+2017-07-07 18:29:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51977 
+2017-07-07 18:30:00
+55192
+2017-07-07 18:30:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55192 
+2017-07-07 18:30:14
+51978
+2017-07-07 18:30:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51978 
+2017-07-07 18:31:00
+55193
+2017-07-07 18:31:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55193 
+2017-07-07 18:31:14
+51979
+2017-07-07 18:31:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51979 
+2017-07-07 18:32:00
+55194
+2017-07-07 18:32:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55194 
+2017-07-07 18:32:14
+51980
+2017-07-07 18:32:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51980 
+2017-07-07 18:33:00
+55195
+2017-07-07 18:33:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55195 
+2017-07-07 18:33:14
+51981
+2017-07-07 18:33:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51981 
+2017-07-07 18:34:00
+55196
+2017-07-07 18:34:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55196 
+2017-07-07 18:34:14
+51982
+2017-07-07 18:34:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51982 
+2017-07-07 18:35:00
+55197
+2017-07-07 18:35:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55197 
+2017-07-07 18:35:14
+51983
+2017-07-07 18:35:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51983 
+2017-07-07 18:36:00
+55198
+2017-07-07 18:36:00
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=55198 
+2017-07-07 18:36:14
+51984
+2017-07-07 18:36:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51984 
+2017-07-07 18:37:00
+Array
+(
+)
+
+2017-07-07 18:37:14
+51985
+2017-07-07 18:37:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51985 
+2017-07-07 18:38:00
+Array
+(
+)
+
+2017-07-07 18:38:14
+51986
+2017-07-07 18:38:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51986 
+2017-07-07 18:39:14
+51987
+2017-07-07 18:39:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51987 
+2017-07-07 18:40:14
+51988
+2017-07-07 18:40:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51988 
+2017-07-07 18:41:14
+51989
+2017-07-07 18:41:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51989 
+2017-07-07 18:42:14
+51990
+2017-07-07 18:42:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51990 
+2017-07-07 18:43:14
+51991
+2017-07-07 18:43:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51991 
+2017-07-07 18:44:14
+51992
+2017-07-07 18:44:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51992 
+2017-07-07 18:45:14
+51993
+2017-07-07 18:45:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51993 
+2017-07-07 18:46:14
+51994
+2017-07-07 18:46:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51994 
+2017-07-07 18:47:14
+51995
+2017-07-07 18:47:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51995 
+2017-07-07 18:48:14
+51996
+2017-07-07 18:48:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51996 
+2017-07-07 18:49:14
+51997
+2017-07-07 18:49:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51997 
+2017-07-07 18:50:14
+51998
+2017-07-07 18:50:14
+ select u.*,a.auto_bet_id,a.start_mode,a.next_mode_id,a.current_mode_id,a.auto_bet_id,a.game_id,a.auto_bet_type,a.limit_up,a.limit_down,a.start_mode,a.auto_bet_begin,a.auto_num_hash,a.bet_volume_sum from user as u  inner join auto_bet_set as a on a.user_id=u.id    where  a.game_id= :a_game_id and u.money <= a.limit_up and u.money >= a.limit_down and a.is_forbid_auto_bet= :a_is_forbid_auto_bet and a.auto_bet_type!= :neq_a_auto_bet_type and u.role_id= :u_role_id and a.bet_volume_sum_back >0 and a.auto_bet_begin <=51998 

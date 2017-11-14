@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>产品详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css_js/mui.css">
+		<script src="css_js/mui.min.js"></script>
+	</head>
+
+	<body>
+		
+<style>
+.mui-bar-tab .mui-tab-item{ font-weight: bold;}
+.mui-tab-item.gwc{border-right: 1px #DDD solid; color: #F0AD4E;}
+.mui-tab-item.lkgm{ color:#CF2D28;}
+.mui-table-view-cell{ background: #fff;}
+.mui-table-view-cell h4{ margin-bottom: 10px;}
+.mui-table-view-cell p b{ color: #FF3300; margin-right: 5px; font-size: 17px;}
+.mui-table-view-cell p.yunfei{ border-top: 1px solid #EEE; margin-top:8px; padding-top: 8px;}
+.mui-table-view-cell p.yunfei span{ margin-left: 12px; border-left: 1px solid #EEE; padding-left:12px;}
+.JieShao{ color: #333; margin-top: 10px;}
+.JieShao h4{ font-size: 0.9em;}
+.JieShao p{ color: #333;}
+.JieShao img{max-width: 100%;}
+
+</style>
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item gwc" href="shopping_Cart.html">加入购物车</a>
+		    <a class="mui-tab-item lkgm" href="order.html">立即购买</a>
+		</nav>
+		
+		<div class="mui-content">
+			<div id="slider" class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#"><img src="update/13.jpg"></a>
+					</div>
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#"><img src="update/1.jpg"></a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#"><img src="update/11.jpg"></a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#"><img src="update/12.jpg"></a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#"><img src="update/13.jpg"></a>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#"><img src="update/1.jpg"></a>
+					</div>
+				</div>
+				<div class="mui-slider-indicator mui-text-right">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+			
+			<div class="mui-table-view-cell">
+				<h4>安溪铁观音春茶新茶</h4>
+				<p><b class="red">￥768.00</b><del>￥780.00</del></p>
+				<p class="yunfei">成都－南京<span>运费￥10.00</span><span>销量13</span></p>
+			</div>
+		
+			<div class="mui-table-view-cell JieShao">
+				<h4>产品介绍</h4>
+				<img src="update/a.jpg">
+				<img src="update/b.jpg">
+				<img src="update/c.jpg">
+				<img src="update/d.jpg">
+				<img src="update/e.jpg">
+				<img src="update/f.jpg">
+				<img src="update/g.jpg">
+				<img src="update/h.jpg">
+				<img src="update/i.jpg">
+				<img src="update/j.jpg">
+				<img src="update/k.jpg">
+				<img src="update/l.jpg">
+			</div>
+		</div>
+		<script>
+			mui.init({
+				swipeBack:true //启用右滑关闭功能
+			});
+			mui('.mui-bar-tab').on('tap','a' ,function(){location.href = this.getAttribute('href')});
+		</script>
+	</body>
+
+</html>

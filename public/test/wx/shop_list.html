@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>选择上架商品</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css_js/mui.css">
+		<script src="css_js/mui.min.js"></script>
+	</head>
+
+	<body>
+		
+
+<style>
+.mui-ellipsis{ color: #333; font-size: 1em; height:30px;}
+.mui-table-view{background:none;}
+.mui-table-view-cell{ background: #fff; margin-bottom:8px; padding-left:0;}
+.mui-checkbox{margin-top:10px; float: left;}
+.mui-input-row.mui-checkbox label{margin: -5px 0 0 20px; font-size: 0.9em;}
+.mui-table-view .mui-media-object{width:60px; height:60px;}
+ul.mui-table-view{ clear:both; margin-top: 0;}
+#pullrefresh{margin-bottom:60px;}
+.mui-scroll-wrapper.mui-slider-indicator{ background: #1d1d20; color: #999;}
+.mui-pull-bottom-tips {text-align: center;font-size: 15px; line-height: 40px;color: #777;}
+</style>
+
+
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" style="border-right: 1px solid #DDD;">已选5个</a>
+			<a class="mui-tab-item" href="index.html" style="color:#007AFF; font-weight: bold;">确认上架</a>
+		</nav>
+
+
+		<div class="mui-content">
+			<div id="slider" class="mui-slider mui-fullscreen">
+				<div id="sliderSegmentedControl" class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+					<div class="mui-scroll">
+						<a class="mui-control-item mui-active" href="#item1mobile">花果茶</a>
+						<a class="mui-control-item" href="#item2mobile">苦荞茶</a>
+						<a class="mui-control-item" href="#item3mobile">休闲食品</a>
+						<a class="mui-control-item" href="#item4mobile">今日特价</a>
+					</div>
+				</div>
+				<div class="mui-slider-group">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+							<div class="mui-input-row mui-checkbox mui-left">
+								<label style="">花果茶全选</label>
+								<input name="checkbox" value="Item 2" type="checkbox">
+							</div>
+							<ul class="mui-table-view">
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/4.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">普洱熟茶七子饼</p>
+										<b class="red">￥128.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/5.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">小青柑</p>
+										<b class="red">￥480.00</b>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/1.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">安溪铁观音春茶新茶</p>
+										<b class="red">￥768.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/4.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">普洱熟茶七子饼</p>
+										<b class="red">￥128.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							</ul>
+							</div>
+						</div>
+					</div>
+					<div id="item2mobile" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+							<div class="mui-input-row mui-checkbox mui-left">
+								<label style="">苦荞茶全选</label>
+								<input name="checkbox" value="Item 2" type="checkbox">
+							</div>
+							<ul class="mui-table-view">
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/5.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">小青柑</p>
+										<b class="red">￥480.00</b>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/1.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">安溪铁观音春茶新茶</p>
+										<b class="red">￥768.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/4.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">普洱熟茶七子饼</p>
+										<b class="red">￥128.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/5.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">小青柑</p>
+										<b class="red">￥480.00</b>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/4.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">普洱熟茶七子饼</p>
+										<b class="red">￥128.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							</ul>
+							</div>
+						</div>
+					</div>
+					<div id="item3mobile" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+							<div class="mui-input-row mui-checkbox mui-left">
+								<label style="">休闲食品全选</label>
+								<input name="checkbox" value="Item 2" type="checkbox">
+							</div>
+							<ul class="mui-table-view">
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/5.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">小青柑</p>
+										<b class="red">￥480.00</b>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/4.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">普洱熟茶七子饼</p>
+										<b class="red">￥128.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/1.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">安溪铁观音春茶新茶</p>
+										<b class="red">￥768.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/5.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">小青柑</p>
+										<b class="red">￥480.00</b>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/4.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">普洱熟茶七子饼</p>
+										<b class="red">￥128.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							</ul>
+							</div>
+						</div>
+					</div>
+					<div id="item4mobile" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+							<div class="mui-input-row mui-checkbox mui-left">
+								<label style="">今日特价默认上架</label>
+								<input name="checkbox" value="Item 2" type="checkbox" checked="">
+							</div>
+							<ul class="mui-table-view">
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/1.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">安溪铁观音春茶新茶</p>
+										<b class="red">￥768.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/5.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">小青柑</p>
+										<b class="red">￥480.00</b>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/4.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">普洱熟茶七子饼</p>
+										<b class="red">￥128.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/1.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">安溪铁观音春茶新茶</p>
+										<b class="red">￥768.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/5.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">小青柑</p>
+										<b class="red">￥480.00</b>
+									</div>
+								</li>
+							    <li class="mui-table-view-cell">
+									<div class="mui-checkbox mui-left">
+										<label></label>
+										<input name="checkbox" value="Item 1" type="checkbox" checked="">
+									</div>
+									<img class="mui-media-object mui-pull-left" src="update/4.jpg">
+									<div class="mui-media-body">
+										<p class="mui-ellipsis">普洱熟茶七子饼</p>
+										<b class="red">￥128.00</b>
+										<p class=" mui-pull-right">已上架</p>
+									</div>
+								</li>
+							</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+	<script src="css_js/mui.pullToRefresh.js"></script>
+		<script src="css_js/mui.pullToRefresh.material.js"></script>
+		<script>
+		mui('.mui-bar-tab').on('tap','a' ,function(){location.href = this.getAttribute('href')});
+			mui.init();
+			(function($) {
+				//阻尼系数
+				var deceleration = mui.os.ios?0.003:0.0009;
+				$('.mui-scroll-wrapper').scroll({
+					bounce: false,
+					indicators: false, //是否显示滚动条
+					deceleration:deceleration
+				});
+				$.ready(function() {
+					//循环初始化所有下拉刷新，上拉加载。
+					$.each(document.querySelectorAll('.mui-slider-group .mui-scroll'), function(index, pullRefreshEl) {
+						$(pullRefreshEl).pullToRefresh({
+							//down: {取消下拉刷新
+							//	callback: function() {
+							//		var self = this;
+							//		setTimeout(function() {
+							//			var ul = self.element.querySelector('.mui-table-view');
+							//			ul.insertBefore(createFragment(ul, index, 4, true), ul.firstChild);
+							//			self.endPullDownToRefresh();
+							//		}, 1000);
+							//	}
+							//},
+							up: {
+								callback: function() {
+									var self = this;
+									setTimeout(function() {
+										var ul = self.element.querySelector('.mui-table-view');
+										ul.appendChild(createFragment(ul, index, 4));
+										self.endPullUpToRefresh();
+									}, 1000);
+								}
+							}
+						});
+					});
+					var createFragment = function(ul, index, count, reverse) {
+						var length = ul.querySelectorAll('li').length;
+						var fragment = document.createDocumentFragment();
+						var li;
+						for (var i = 0; i < count; i++) {
+							li = document.createElement('li');
+							li.className = 'mui-table-view-cell';
+							li.innerHTML = '<div class="mui-checkbox mui-left"><label></label><input name="checkbox" value="Item 1" type="checkbox"></div>'+'<img class="mui-media-object mui-pull-left" src="update/2.jpg">'+'<div class="mui-media-body">' + '<p class="mui-ellipsis">安溪铁观音春茶新茶'+(i + 1)+'</p>'+'<b class="red">￥480.00</b>'+'</div>';
+							fragment.appendChild(li);
+						}
+						return fragment;
+					};
+				});
+			})(mui);
+		</script>
+
+	</body>
+
+</html>

@@ -1,0 +1,144 @@
+
+2017-07-22 16:41:14
+Array
+(
+    [0] => Array
+        (
+            [id] => 2875
+            [game_id] => 1
+            [total] => 3
+            [bet_num] => 1
+            [volume_id] => 55506
+            [bet_money] => 3
+            [user_id] => 313
+            [bet_order_id] => 356
+            [created] => 2017-07-22 00:00:00
+            [created_flag] => 6
+        )
+
+    [1] => Array
+        (
+            [id] => 2876
+            [game_id] => 1
+            [total] => 3
+            [bet_num] => 1
+            [volume_id] => 55506
+            [bet_money] => 3
+            [user_id] => 313
+            [bet_order_id] => 356
+            [created] => 2017-07-22 00:00:00
+            [created_flag] => 6
+        )
+
+)
+
+2017-07-22 16:42:14
+Array
+(
+    [0] => Array
+        (
+            [id] => 2875
+            [game_id] => 1
+            [total] => 3
+            [bet_num] => 1
+            [volume_id] => 55506
+            [bet_money] => 3
+            [user_id] => 313
+            [bet_order_id] => 356
+            [created] => 2017-07-22 00:00:00
+            [created_flag] => 6
+        )
+
+    [1] => Array
+        (
+            [id] => 2876
+            [game_id] => 1
+            [total] => 3
+            [bet_num] => 1
+            [volume_id] => 55506
+            [bet_money] => 3
+            [user_id] => 313
+            [bet_order_id] => 356
+            [created] => 2017-07-22 00:00:00
+            [created_flag] => 6
+        )
+
+)
+
+2017-07-22 16:42:20
+Array
+(
+    [0] => Array
+        (
+            [id] => 2875
+            [game_id] => 1
+            [total] => 3
+            [bet_num] => 1
+            [volume_id] => 55506
+            [bet_money] => 3
+            [user_id] => 313
+            [bet_order_id] => 356
+            [created] => 2017-07-22 00:00:00
+            [created_flag] => 6
+        )
+
+    [1] => Array
+        (
+            [id] => 2876
+            [game_id] => 1
+            [total] => 3
+            [bet_num] => 1
+            [volume_id] => 55506
+            [bet_money] => 3
+            [user_id] => 313
+            [bet_order_id] => 356
+            [created] => 2017-07-22 00:00:00
+            [created_flag] => 6
+        )
+
+)
+
+2017-07-22 16:42:23
+Array
+(
+    [0] => Array
+        (
+            [id] => 2875
+            [game_id] => 1
+            [total] => 3
+            [bet_num] => 1
+            [volume_id] => 55506
+            [bet_money] => 3
+            [user_id] => 313
+            [bet_order_id] => 356
+            [created] => 2017-07-22 00:00:00
+            [created_flag] => 6
+        )
+
+    [1] => Array
+        (
+            [id] => 2876
+            [game_id] => 1
+            [total] => 3
+            [bet_num] => 1
+            [volume_id] => 55506
+            [bet_money] => 3
+            [user_id] => 313
+            [bet_order_id] => 356
+            [created] => 2017-07-22 00:00:00
+            [created_flag] => 6
+        )
+
+)
+
+2017-07-22 16:42:51
+Array
+(
+    [1] => 0
+)
+
+2017-07-22 16:43:26
+Array
+(
+    [1] => 6
+)

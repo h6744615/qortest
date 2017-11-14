@@ -1,0 +1,27 @@
+Array
+(
+    [0] => Array
+        (
+            [game_id] => 9
+            [volume_id] => 2177019
+            [bet_num] => 0
+            [total] => 1
+        )
+
+    [1] => Array
+        (
+            [game_id] => 9
+            [volume_id] => 2177019
+            [bet_num] => 10
+            [total] => 63
+        )
+
+    [2] => Array
+        (
+            [game_id] => 9
+            [volume_id] => 2177019
+            [bet_num] => 20
+            [total] => 36
+        )
+
+)

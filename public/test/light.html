@@ -1,0 +1,402 @@
+<!-- 告诉浏览器这个一个html5的网页 -->  
+<!DOCTYPE html>   
+<html>  
+<head>  
+<!--网页的编码-->  
+<meta charset="utf-8"/>  
+<title>模拟交通</title>  
+</head>  
+<body>  
+<!--跟老师一起玩-->  
+<canvas id="car" width="500px" height="500px"></canvas> 
+
+
+<style>
+html,body{ margin:0; padding:0;}
+canvas{ width:500px; height:500px; margin:-40px 0 0 -40px;}
+</style>
+
+ 
+<script type="text/javascript">  
+      
+    //1.得到画布  
+    var canvas1=document.getElementById("car");  
+    //2. 得到上下文引用，你可以理解成画笔  
+    var cxt=canvas1.getContext("2d");  
+    //定义车数组  
+    var cars=new Array();  
+    var lights=new Array();//灯数组  
+  
+    var times=0;  
+    var qieHuan=true;  
+    //四个灯对象  
+    var up=new MyLight(200,180,0);  
+    var right=new MyLight(300,200,1);  
+    var down=new MyLight(260,300,2);  
+    var left=new MyLight(180,260,3);  
+    lights.push(up);//放入数组  
+    lights.push(right);  
+    lights.push(down);  
+    lights.push(left);  
+      
+    //画道路图  
+    function drawLine(){  
+        //**********画粗线**********  
+        cxt.beginPath();  
+        cxt.lineWidth = 2;//线条宽度为2
+        //水平第一条粗线  
+        cxt.moveTo(0,200);  
+        cxt.lineTo(500,200);  
+        //水平第二条粗线  
+        cxt.moveTo(0,300);  
+        cxt.lineTo(500,300);  
+        //垂直第一条粗线  
+        cxt.moveTo(200,0);  
+        cxt.lineTo(200,500);  
+        //垂直第二条粗线  
+        cxt.moveTo(300,0);  
+        cxt.lineTo(300,500);  
+        cxt.closePath();  
+        cxt.strokeStyle="#777";  
+        cxt.stroke();  
+        //**********画细线**********  
+        cxt.beginPath();  
+        cxt.lineWidth = 1;//线条宽度为1  
+        //水平细线  
+        cxt.moveTo(250,0);  
+        cxt.lineTo(250,500);  
+        //垂直细线  
+        cxt.moveTo(0,250);  
+        cxt.lineTo(500,250);  
+        cxt.strokeStyle="#333";  
+        cxt.closePath();  
+        cxt.stroke();  
+    }  
+    //画灯  
+    function drawLight(){  
+        cxt.beginPath();  
+        cxt.fillStyle="#333";  
+          
+        for(var i=0;i<lights.length;i++){  
+            var light=lights[i];  
+            if(light.direct%2==0){  
+                cxt.fillRect(light.x,light.y,40,20);//上与下的灯  
+            }else{  
+                cxt.fillRect(light.x,light.y,20,40);//左与右的灯  
+            }  
+        }  
+        cxt.closePath();  
+        cxt.stroke();  
+          
+          
+          
+        for(var i=0;i<lights.length;i++){  
+            var light=lights[i];  
+            if(light.red){  
+                cxt.beginPath();  
+                if(i%2==0){  
+                    cxt.arc(light.x+10,light.y+10,8,8,360,true);  
+                }else{  
+                    cxt.arc(light.x+10,light.y+10,8,8,360,true);  
+                }  
+                //闭合园  
+                cxt.fillStyle="#FF0000";  
+                cxt.closePath();  
+                cxt.fill();  
+            }  
+              
+            if(light.green){  
+                cxt.beginPath();  
+                if(i%2==0){  
+                    cxt.arc(light.x+30,light.y+10,8,8,360,true);  
+                }else{  
+                    cxt.arc(light.x+10,light.y+30,8,8,360,true);  
+                }  
+                cxt.fillStyle="#00FF00";  
+                cxt.closePath();  
+                cxt.fill();  
+            }  
+        }  
+          
+  
+          
+        if(qieHuan){  
+            for(var i=0;i<lights.length;i++){  
+                var light=lights[i];  
+  
+                if(i%2==0){  
+                    light.red=true;  
+                    light.green=false;  
+                }else{  
+                    light.red=false;  
+                    light.green=true;  
+                }  
+            }  
+              
+        }else{  
+            for(var i=0;i<lights.length;i++){  
+                var light=lights[i];  
+                  
+                if(i%2==0){  
+                    light.red=false;  
+                    light.green=true;  
+                }else{  
+                    light.red=true;  
+                    light.green=false;  
+                }  
+            }  
+        }  
+        if(times%70==0){  
+            if(qieHuan){  
+                qieHuan=false;  
+            }else{  
+                qieHuan=true;  
+            }  
+              
+        }  
+    }  
+    //画车方法  
+    function drawCars(){  
+        times++;  
+        //当车数少于8个时，“times%25==0”起到延时作用，就是每隔一定时间生成车对象  
+        if(cars.length<8){  
+            var direct=Math.round(Math.random()*3);//随机生成 0,1,2,3方向  
+            var newDirect;//车到拐弯时的新方向  
+            switch(direct){  
+            case 0:  
+                newDirect=getNewDirect(2);//获得拐弯时的新方向  
+                var myCar=new MyCar(215,0,direct,newDirect);//车对象  
+                cars[cars.length]=myCar;//车对象放入数组  
+                break;  
+            case 1:  
+                newDirect=getNewDirect(3);  
+                var myCar=new MyCar(500,215,direct,newDirect);  
+                cars[cars.length]=myCar;  
+                break;  
+            case 2:  
+                newDirect=getNewDirect(0);  
+                var myCar=new MyCar(265,500,direct,newDirect);  
+                cars[cars.length]=myCar;  
+                break;  
+            case 3:  
+                newDirect=getNewDirect(1);  
+                var myCar=new MyCar(0,265,direct,newDirect);  
+                cars[cars.length]=myCar;  
+                break;  
+            }  
+              
+        }  
+        //返回新方向  
+        function getNewDirect(fan){  
+            var d=Math.round(Math.random()*3);  
+            while(d==fan){  
+                d=Math.round(Math.random()*3);  
+            }  
+            return d;  
+        }  
+        //画车  
+        for(var i=0;i<cars.length;i++){  
+            var myCar=cars[i];  
+            myCar.run();  
+            cxt.beginPath();  
+            cxt.fillStyle="#0066cc";  
+            switch(myCar.direct){  
+            case 0:  
+                cxt.fillRect(myCar.x,myCar.y,20,30);  
+                break;  
+            case 1:  
+                cxt.fillRect(myCar.x,myCar.y,30,20);  
+                break;  
+            case 2:  
+                cxt.fillRect(myCar.x,myCar.y,20,30);  
+                break;  
+            case 3:  
+                cxt.fillRect(myCar.x,myCar.y,30,20);  
+                break;  
+            }  
+  
+            cxt.closePath();  
+            cxt.stroke();  
+            if(!myCar.isLive){//车到了边界，就从数组中删除  
+                cars.splice(i,1);  
+            }  
+        }  
+    }  
+    function flashTankMap(){  
+        //把画布清理  
+        cxt.clearRect(0,0,500,500);   
+        drawLine();//开始画道路  
+        drawLight();//开始画灯  
+        drawCars();//开始画车  
+          
+    }  
+    //每隔300毫秒去刷新一次作战区  
+    window.setInterval("flashTankMap()",300);
+    //********************类区*******************************  
+    function Car(x,y,direct){//车父类  
+        this.x=x;  
+        this.y=y;  
+        this.direct=direct;  
+        this.speed=10;  
+        this.isLive=true;//是否到了边界  
+        this.isStop=true;  
+    }  
+    //界面上的车类  
+    function MyCar(x,y,direct,newDirect){  
+        //下面两句话的作用是通过对象冒充，达到继承的效果  
+        this.car=Car;  
+        this.car(x,y,direct);  
+  
+        this.newDirect=newDirect;  
+        //车碰到灯  
+        this.panDuan=function(x,y,direct){  
+            for(var i=0;i<lights.length;i++){  
+                var light=lights[i];  
+                if(i%2==0){  
+                    if(x>=light.x&&x<=light.x+40&&y>=light.y&&y<=light.y+20){  
+                      
+                        if(light.red&&direct==light.direct){  
+                            this.isStop=false;  
+                        }else{  
+                            this.isStop=true;  
+                        }  
+                    }  
+                }else{  
+                    if(x>=light.x&&x<=light.x+20&&y>=light.y&&y<=light.y+40){  
+                        if(light.red&&direct==light.direct){  
+                            this.isStop=false;  
+                        }else{  
+                            this.isStop=true;  
+                        }  
+                    }  
+                }  
+                //如果所在车道的是绿灯，那么此车道的车全部启动  
+                for(var j=0;j<cars.length;j++){  
+                    var car=cars[j];  
+                    if(light.direct==car.direct){  
+                        if(light.green){  
+                            car.isStop=true;  
+                        }  
+                    }  
+                }  
+            }  
+            //车碰到车  
+            for(var i=0;i<cars.length;i++){  
+                var car=cars[i];  
+                if(i%2==0){  
+                    if(x>=car.x&&x<=car.x+20&&y>=car.y&&y<=car.y+35){      
+                        if(car.isStop==false){      
+                            this.isStop=false;      
+                        }else{      
+                            this.isStop=true;      
+                        }      
+                    }   
+                }else{  
+                    if(x>=car.x&&x<=car.x+35&&y>=car.y&&y<=car.y+20){      
+                        if(car.isStop==false){      
+                            this.isStop=false;      
+                        }else{      
+                            this.isStop=true;      
+                        }      
+                    }   
+                }  
+            }  
+              
+        }  
+        this.run=function(){//车移动坐标方法  
+            //车对应的起始方向  
+            switch(this.direct){  
+            case 0:  
+                if(this.isStop){  
+                    this.y+=this.speed;//前进  
+                }  
+                this.panDuan(this.x,this.y+30,0);  
+                switch(this.newDirect){//需要换方向时  
+                case 1:  
+                    if(this.y>215){//坐标到了一定位置，就换方向  
+                        this.direct=newDirect;  
+                    }  
+                      
+                    break;  
+                case 3:  
+                    if(this.y>265){  
+                        this.direct=newDirect;  
+                    }  
+                    break;  
+                }  
+                break;  
+            case 1:  
+                if(this.isStop){  
+                    this.x-=this.speed;//前进  
+                }  
+                this.panDuan(this.x,this.y,1)  
+                switch(this.newDirect){  
+                case 2:  
+                    if(this.x<265){  
+                        this.direct=newDirect;  
+                    }  
+                    break;  
+                case 0:  
+                    if(this.x<215){  
+                        this.direct=newDirect;  
+                    }  
+                    break;  
+                }  
+                break;  
+            case 2:  
+                if(this.isStop){  
+                    this.y-=this.speed;//前进  
+                }  
+                this.panDuan(this.x,this.y,2);  
+                switch(this.newDirect){  
+                case 1:  
+                    if(this.y<215){  
+                        this.direct=newDirect;  
+                    }  
+                      
+                    break;  
+                case 3:  
+                    if(this.y<265){  
+                        this.direct=newDirect;  
+                    }  
+                    break;  
+                }  
+                break;  
+            case 3:  
+                if(this.isStop){  
+                    this.x+=this.speed;//前进  
+                }  
+                this.panDuan(this.x+30,this.y,3)  
+                switch(this.newDirect){  
+                case 0:  
+                    if(this.x>215){  
+                        this.direct=newDirect;  
+                    }  
+                      
+                    break;  
+                case 2:  
+                    if(this.x>265){  
+                        this.direct=newDirect;  
+                    }  
+                    break;  
+                }  
+                break;  
+            }  
+              
+            //到了边界，死亡  
+            if(this.x>500||this.y>500||this.x<0||this.y<0){  
+                this.isLive=false;  
+            }  
+        }  
+    }  
+    //红绿灯类  
+    function MyLight(x,y,direct){  
+        this.x=x;  
+        this.y=y;  
+        this.direct=direct;  
+        this.red=true;  
+        this.green=true;  
+    }  
+</script>  
+</body>  
+</html> 

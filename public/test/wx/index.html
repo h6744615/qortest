@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mr.Yao的小店</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css_js/mui.css">
+		<script type="text/javascript" src="css_js/jquery-1.6.2.min.js"></script>
+		<script src="css_js/mui.min.js"></script>
+	</head>
+
+	<body>
+		
+<style>
+.mui-table-view{background: none;}
+.mui-table-view li,.mui-table-view-cell,.mui-media,.mui-col-xs-6{ background: #fff !important; margin:0 0 1px 0; border-right:1px solid #eee ;}
+.mui-table-view-cell b{ margin-right: 5px;}
+.mui-table-view-cell del{ color: #999; font-size: 0.8em;}
+.AddCart{ font-size:0.75em; margin-top:5px; margin-bottom: 14px;}
+#flyItem{ width:20px; height:20px; text-align: center; line-height: 16px; background:#F30; position:absolute; border-radius:10px; color:#FFF; visibility:hidden; z-index:999;}
+.mui-scroll-wrapper.mui-slider-indicator{ background: #1d1d20; color: #999;}
+.mui-pull-bottom-tips {text-align: center;font-size: 15px; line-height: 40px;color: #777;}
+</style>
+
+
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active" href="index.html">
+				<span class="mui-icon mui-icon-home"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item" href="shopping_Cart.html" id="shopCart">
+				<span class="mui-icon mui-icon-shopCar"><span class="mui-badge">0</span></span>
+				<span class="mui-tab-label">购物车</span>
+			</a>
+			<a class="mui-tab-item" href="member.html">
+				<span class="mui-icon mui-icon-jiameng"></span>
+				<span class="mui-tab-label">免费开店</span>
+			</a>
+			<a class="mui-tab-item" href="setting.html">
+				<span class="mui-icon mui-icon-contact"></span>
+				<span class="mui-tab-label">设置</span>
+			</a>
+		</nav>
+
+
+		<div class="mui-content">
+			<div id="slider" class="mui-slider mui-fullscreen">
+				<div id="sliderSegmentedControl" class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+					<div class="mui-scroll">
+						<a class="mui-control-item mui-active" href="#item1mobile">花果茶</a>
+						<a class="mui-control-item" href="#item2mobile">苦荞茶</a>
+						<a class="mui-control-item" href="#item3mobile">休闲食品</a>
+						<a class="mui-control-item" href="#item4mobile">今日特价</a>
+					</div>
+				</div>
+				<div class="mui-slider-group">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+						    <ul class="mui-table-view mui-grid-view">
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/1.jpg"></a>
+									<h4 class="mui-media-body">安溪铁观音春茶新茶</h4>
+									<b class="red">￥254.60</b><del>￥268.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/5.jpg"></a>
+									<h4 class="mui-media-body">小青柑</h4>
+									<b class="red">￥480.00</b><del>￥500.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/2.jpg"></a>
+									<h4 class="mui-media-body">安溪铁观音新茶</h4>
+									<b class="red">￥258.00</b><del>￥288.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/3.jpg"></a>
+									<h4 class="mui-media-body">牛谷 安溪铁观音茶叶</h4>
+									<b class="red">¥178.00</b><del>￥188.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/4.jpg"></a>
+									<h4 class="mui-media-body">普洱熟茶七子饼</h4>
+									<b class="red">¥128.00</b><del>￥138.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/6.jpg"></a>
+									<h4 class="mui-media-body">凤凰单枞乌龙高山单从鸭屎香单丛茶</h4>
+									<b class="red">￥768.00</b><del>￥830.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						    </ul>
+							</div>
+						</div>
+					</div>
+					<div id="item2mobile" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+						    <ul class="mui-table-view mui-grid-view">
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/4.jpg"></a>
+									<h4 class="mui-media-body">普洱熟茶七子饼</h4>
+									<b class="red">¥128.00</b><del>￥138.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/5.jpg"></a>
+									<h4 class="mui-media-body">小青柑</h4>
+									<b class="red">￥480.00</b><del>￥500.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/1.jpg"></a>
+									<h4 class="mui-media-body">安溪铁观音春茶新茶</h4>
+									<b class="red">￥254.60</b><del>￥268.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/2.jpg"></a>
+									<h4 class="mui-media-body">安溪铁观音新茶</h4>
+									<b class="red">￥258.00</b><del>￥288.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/3.jpg"></a>
+									<h4 class="mui-media-body">牛谷 安溪铁观音茶叶</h4>
+									<b class="red">¥178.00</b><del>￥188.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/6.jpg"></a>
+									<h4 class="mui-media-body">凤凰单枞乌龙高山单从鸭屎香单丛茶</h4>
+									<b class="red">￥768.00</b><del>￥830.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						    </ul>
+							</div>
+						</div>
+					</div>
+					<div id="item3mobile" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+						    <ul class="mui-table-view mui-grid-view">
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/1.jpg"></a>
+									<h4 class="mui-media-body">安溪铁观音春茶新茶</h4>
+									<b class="red">￥254.60</b><del>￥268.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/5.jpg"></a>
+									<h4 class="mui-media-body">小青柑</h4>
+									<b class="red">￥480.00</b><del>￥500.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/2.jpg"></a>
+									<h4 class="mui-media-body">安溪铁观音新茶</h4>
+									<b class="red">￥258.00</b><del>￥288.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/3.jpg"></a>
+									<h4 class="mui-media-body">牛谷 安溪铁观音茶叶</h4>
+									<b class="red">¥178.00</b><del>￥188.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/4.jpg"></a>
+									<h4 class="mui-media-body">普洱熟茶七子饼</h4>
+									<b class="red">¥128.00</b><del>￥138.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/6.jpg"></a>
+									<h4 class="mui-media-body">凤凰单枞乌龙高山单从鸭屎香单丛茶</h4>
+									<b class="red">￥768.00</b><del>￥830.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						    </ul>
+							</div>
+						</div>
+					</div>
+					<div id="item4mobile" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+						    <ul class="mui-table-view mui-grid-view">
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/6.jpg"></a>
+									<h4 class="mui-media-body">凤凰单枞乌龙高山单从鸭屎香单丛茶</h4>
+									<b class="red">￥768.00</b><del>￥830.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/3.jpg"></a>
+									<h4 class="mui-media-body">牛谷 安溪铁观音茶叶</h4>
+									<b class="red">¥178.00</b><del>￥188.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/1.jpg"></a>
+									<h4 class="mui-media-body">安溪铁观音春茶新茶</h4>
+									<b class="red">￥254.60</b><del>￥268.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/5.jpg"></a>
+									<h4 class="mui-media-body">小青柑</h4>
+									<b class="red">￥480.00</b><del>￥500.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/2.jpg"></a>
+									<h4 class="mui-media-body">安溪铁观音新茶</h4>
+									<b class="red">￥258.00</b><del>￥288.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						        <li class="mui-table-view-cell mui-col-xs-6">
+									<a href="shop_Info.html"><img class="mui-media-object" src="update/4.jpg"></a>
+									<h4 class="mui-media-body">普洱熟茶七子饼</h4>
+									<b class="red">¥128.00</b><del>￥138.00</del><br />
+									<button class="AddCart">加入购物车</button>
+						        </li>
+						    </ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+	<div id="flyItem">+</div><!--抛物线盒子，不能少--->
+
+
+	<script type="text/javascript" src="css_js/parabola.js"></script>
+        <script type="text/javascript">
+            // 元素以及其他一些变量
+            var eleFlyElement = document.querySelector("#flyItem"), eleShopCart = document.querySelector("#shopCart");
+            var numberItem = 0;
+            // 抛物线运动
+            var myParabola = funParabola(eleFlyElement, eleShopCart, {
+                speed: 300, //抛物线速度
+                curvature: 0.0008, //控制抛物线弧度
+                complete: function() {
+                    eleFlyElement.style.visibility = "hidden";
+                    eleShopCart.querySelector(".mui-badge").innerHTML = ++numberItem;
+                }
+            });
+            // 绑定点击事件
+            if (eleFlyElement && eleShopCart) {
+                [].slice.call(document.getElementsByClassName("AddCart")).forEach(function(button) {
+                    button.addEventListener("click", function(event) {
+                        var src = $(this).parents(".mui-media").find('.flyImg').attr("src");
+                        $("#flyItem").find("img").attr("src", src);
+                        // 滚动大小
+                        var scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft || 0,
+                                scrollTop = document.documentElement.scrollTop || document.body.scrollTop || 0;
+                        eleFlyElement.style.left = event.clientX + scrollLeft + "px";
+                        eleFlyElement.style.top = event.clientY + scrollTop + "px";
+                        eleFlyElement.style.visibility = "visible";
+                        // 需要重定位
+                        myParabola.position().move();
+                    });
+                });
+            }
+        </script>
+
+
+<script src="css_js/mui.pullToRefresh.js"></script>
+		<script src="css_js/mui.pullToRefresh.material.js"></script>
+		<script>
+		mui('.mui-bar-tab').on('tap','a' ,function(){location.href = this.getAttribute('href')});
+			mui.init();
+			(function($) {
+				//阻尼系数
+				var deceleration = mui.os.ios?0.003:0.0009;
+				$('.mui-scroll-wrapper').scroll({
+					bounce: false,
+					indicators: false, //是否显示滚动条
+					deceleration:deceleration
+				});
+				$.ready(function() {
+					//循环初始化所有下拉刷新，上拉加载。
+					$.each(document.querySelectorAll('.mui-slider-group .mui-scroll'), function(index, pullRefreshEl) {
+						$(pullRefreshEl).pullToRefresh({
+							//down: {取消下拉刷新
+							//	callback: function() {
+							//		var self = this;
+							//		setTimeout(function() {
+							//			var ul = self.element.querySelector('.mui-table-view');
+							//			ul.insertBefore(createFragment(ul, index, 4, true), ul.firstChild);
+							//			self.endPullDownToRefresh();
+							//		}, 1000);
+							//	}
+							//},
+							up: {
+								callback: function() {
+									var self = this;
+									setTimeout(function() {
+										var ul = self.element.querySelector('.mui-table-view');
+										ul.appendChild(createFragment(ul, index, 4));
+										self.endPullUpToRefresh();
+									}, 1000);
+								}
+							}
+						});
+					});
+					var createFragment = function(ul, index, count, reverse) {
+						var length = ul.querySelectorAll('li').length;
+						var fragment = document.createDocumentFragment();
+						var li;
+						for (var i = 0; i < count; i++) {
+							li = document.createElement('li');
+							li.className = 'mui-table-view-cell mui-col-xs-6';
+							li.innerHTML = '<a href="shop_Info.html"><img class="mui-media-object" src="update/2.jpg"></a>' + '<h4 class="mui-media-body">新加载名称'+(i + 1)+'</h4>'+'<b class="red">￥768.00</b><del>￥268.00</del><br />'+'<button class="AddCart">加入购物车</button>';
+							fragment.appendChild(li);
+						}
+						return fragment;
+					};
+				});
+			})(mui);
+		</script>
+
+
+
+
+
+
+
+
+	</body>
+
+</html>

@@ -1,0 +1,384 @@
+
+2017-07-05 11:09:27
+34
+2017-07-05 11:09:48
+1499224188
+2017-07-05 11:09:49
+1499224189
+2017-07-05 11:10:59
+Array
+(
+    [page] => Array
+        (
+            [curPage] => 1
+            [pageNum] => 5
+            [perpage] => 20
+        )
+
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [order_id] => 27139
+                    [created] => 2017-07-05 11:10:14
+                    [USER_ID] => 313
+                    [volume_id] => 50207
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 
+                    [checked] => 0
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 11:10:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [1] => Array
+                (
+                    [order_id] => 27138
+                    [created] => 2017-07-05 11:10:15
+                    [USER_ID] => 313
+                    [volume_id] => 50206
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 17
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 11:10:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [2] => Array
+                (
+                    [order_id] => 27137
+                    [created] => 2017-07-05 11:09:15
+                    [USER_ID] => 313
+                    [volume_id] => 50205
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 8
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 11:09:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [3] => Array
+                (
+                    [order_id] => 27136
+                    [created] => 2017-07-05 11:08:15
+                    [USER_ID] => 313
+                    [volume_id] => 50204
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 11
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 11:08:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [4] => Array
+                (
+                    [order_id] => 27135
+                    [created] => 2017-07-05 11:07:15
+                    [USER_ID] => 313
+                    [volume_id] => 50203
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 6
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 11:07:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [5] => Array
+                (
+                    [order_id] => 27134
+                    [created] => 2017-07-05 11:06:15
+                    [USER_ID] => 313
+                    [volume_id] => 50202
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 10
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 11:06:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [6] => Array
+                (
+                    [order_id] => 27133
+                    [created] => 2017-07-05 11:05:15
+                    [USER_ID] => 313
+                    [volume_id] => 50201
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 12
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 11:05:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [7] => Array
+                (
+                    [order_id] => 27132
+                    [created] => 2017-07-05 11:04:15
+                    [USER_ID] => 313
+                    [volume_id] => 50200
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 13
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 11:04:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [8] => Array
+                (
+                    [order_id] => 27131
+                    [created] => 2017-07-05 11:03:15
+                    [USER_ID] => 313
+                    [volume_id] => 50199
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 7
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 11:03:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [9] => Array
+                (
+                    [order_id] => 27130
+                    [created] => 2017-07-05 11:02:15
+                    [USER_ID] => 313
+                    [volume_id] => 50198
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 12
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 11:02:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [10] => Array
+                (
+                    [order_id] => 27129
+                    [created] => 2017-07-05 11:01:15
+                    [USER_ID] => 313
+                    [volume_id] => 50197
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 8
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 11:01:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [11] => Array
+                (
+                    [order_id] => 27128
+                    [created] => 2017-07-05 11:00:15
+                    [USER_ID] => 313
+                    [volume_id] => 50196
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 10
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 11:00:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [12] => Array
+                (
+                    [order_id] => 27127
+                    [created] => 2017-07-05 10:59:15
+                    [USER_ID] => 313
+                    [volume_id] => 50195
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 8
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 10:59:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [13] => Array
+                (
+                    [order_id] => 27126
+                    [created] => 2017-07-05 10:58:15
+                    [USER_ID] => 313
+                    [volume_id] => 50194
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 6
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 10:58:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [14] => Array
+                (
+                    [order_id] => 27125
+                    [created] => 2017-07-05 10:57:15
+                    [USER_ID] => 313
+                    [volume_id] => 50193
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 11
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 10:57:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [15] => Array
+                (
+                    [order_id] => 27124
+                    [created] => 2017-07-05 10:56:15
+                    [USER_ID] => 313
+                    [volume_id] => 50192
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 10
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 10:56:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [16] => Array
+                (
+                    [order_id] => 27123
+                    [created] => 2017-07-05 10:55:15
+                    [USER_ID] => 313
+                    [volume_id] => 50191
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 5
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 10:55:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [17] => Array
+                (
+                    [order_id] => 27122
+                    [created] => 2017-07-05 10:54:15
+                    [USER_ID] => 313
+                    [volume_id] => 50190
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 13
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 10:54:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [18] => Array
+                (
+                    [order_id] => 27121
+                    [created] => 2017-07-05 10:53:15
+                    [USER_ID] => 313
+                    [volume_id] => 50189
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 9
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 10:53:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+            [19] => Array
+                (
+                    [order_id] => 27120
+                    [created] => 2017-07-05 10:52:15
+                    [USER_ID] => 313
+                    [volume_id] => 50188
+                    [bet_sum] => 1000
+                    [benifit] => 0
+                    [winner_num] => 8
+                    [checked] => 1
+                    [lottery_num] => 0
+                    [lottery_time] => 2017-07-05 10:52:14
+                    [bet_mode_id] => 237
+                    [game_id] => 2
+                    [order_from] => 2
+                    [created_flag] => 3
+                )
+
+        )
+
+    [pagesHtml] =>   共667条记录    共34页  <a href='?page=1'>首页</a><a href='?page=1'>前一页</a><a href='?page=1' id='currentpage'>1</a><a href='?page=2'>2</a><a href='?page=3'>3</a><a href='?page=4'>4</a><a href='?page=5'>5</a><a href='?page=2'>下一页</a><a href='?page=34'>尾页</a>
+    [count] => 100
+)

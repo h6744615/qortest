@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>免费开店</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css_js/mui.css">
+		<script type="text/javascript" src="css_js/jquery-1.6.2.min.js"></script>
+		<script src="css_js/mui.min.js"></script>
+	</head>
+
+	<body>
+		
+<style>
+.mui-table-view{background:none;}
+.mui-table-view-cell{ background: #fff; margin-bottom:8px; padding:15px 15px 0 15px;}
+.mui-btn-danger{ width:94%; margin:30px auto;}
+</style>
+
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="index.html">
+				<span class="mui-icon mui-icon-home"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item" href="shopping_Cart.html">
+				<span class="mui-icon mui-icon-shopCar"><span class="mui-badge">3</span></span>
+				<span class="mui-tab-label">购物车</span>
+			</a>
+			<a class="mui-tab-item mui-active" href="member.html">
+				<span class="mui-icon mui-icon-jiameng"></span>
+				<span class="mui-tab-label">免费开店</span>
+			</a>
+			<a class="mui-tab-item" href="setting.html">
+				<span class="mui-icon mui-icon-contact"></span>
+				<span class="mui-tab-label">设置</span>
+			</a>
+		</nav>
+
+
+		<div class="mui-content">
+		<ul class="mui-table-view" style="margin-top: 0;">
+		    <li class="mui-table-view-cell mui-media">
+		            <span class="mui-media-object mui-pull-left mui-icon mui-icon-yongjin"></span>
+		            <div class="mui-media-body">
+		                推广赚佣金
+		                <p class='mui-ellipsis'>全店商品均可享受分佣，<br />推广客户终生受益。</p>
+		            </div>
+		    </li>
+		    <li class="mui-table-view-cell mui-media">
+		            <span class="mui-media-object mui-pull-left mui-icon mui-icon-chengben"></span>
+		            <div class="mui-media-body">
+		                零成本投入
+		                <p class='mui-ellipsis'>无需开店，无需囤货<br />无需投入时间管理。</p>
+		            </div>
+		    </li>
+		    <li class="mui-table-view-cell mui-media">
+		            <span class="mui-media-object mui-pull-left mui-icon mui-icon-jiesuan"></span>
+		            <div class="mui-media-body">
+		                自动结算，随时提现
+		                <p class='mui-ellipsis'>智能财物系统自动结算，精准无误，<br />随时提现，快速到账。</p>
+		            </div>
+		    </li>
+		</ul>
+		<a href="shop_list.html" class="mui-btn mui-btn-danger mui-btn-block"><span class="mui-icon mui-icon-queren"></span>成为店老板</a>
+	</div>
+	<script type="text/javascript">
+		mui(document.body).on('tap', '.mui-btn', function(e) {
+		    mui(this).button('loading');
+		    setTimeout(function() {
+		        mui(this).button('reset');
+		    }.bind(this), 2000);
+		});
+		mui('.mui-content').on('tap','a' ,function(){location.href = this.getAttribute('href')});
+		mui('.mui-bar-tab').on('tap','a' ,function(){location.href = this.getAttribute('href')});
+	</script>
+
+	</body>
+
+</html>

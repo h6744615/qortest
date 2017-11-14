@@ -1,0 +1,777 @@
+
+2017-07-07 18:56:41
+Array
+(
+    [auto_bet_id] => 7
+    [user_id] => 313
+    [limit_up] => 1000000000000
+    [limit_down] => 1000
+    [bet_volume_sum] => 1000
+    [start_mode] => 0
+    [auto_bet_begin] => 52012
+    [auto_bet_type] => 2
+    [auto_num_hash] => {"mode_3":"3"}
+    [game_id] => 2
+    [bet_volume_sum_back] => 1000
+    [is_forbid_auto_bet] => 0
+    [current_mode_id] => 0
+    [next_mode_id] => 0
+)
+
+2017-07-07 18:57:39
+Array
+(
+    [auto_bet_id] => 7
+    [user_id] => 313
+    [limit_up] => 1000000000000
+    [limit_down] => 1000
+    [bet_volume_sum] => 1000
+    [start_mode] => 0
+    [auto_bet_begin] => 52012
+    [auto_bet_type] => 2
+    [auto_num_hash] => {"mode_3":"3"}
+    [game_id] => 2
+    [bet_volume_sum_back] => 1000
+    [is_forbid_auto_bet] => 0
+    [current_mode_id] => 0
+    [next_mode_id] => 0
+)
+
+2017-07-07 18:58:37
+Array
+(
+    [auto_bet_id] => 7
+    [user_id] => 313
+    [limit_up] => 1000000000000
+    [limit_down] => 1000
+    [bet_volume_sum] => 1000
+    [start_mode] => 0
+    [auto_bet_begin] => 52012
+    [auto_bet_type] => 2
+    [auto_num_hash] => {"mode_3":"3"}
+    [game_id] => 2
+    [bet_volume_sum_back] => 1000
+    [is_forbid_auto_bet] => 0
+    [current_mode_id] => 0
+    [next_mode_id] => 0
+)
+
+2017-07-07 18:59:23
+
+2017-07-07 18:59:36
+Array
+(
+    [auto_bet_id] => 7
+    [user_id] => 313
+    [limit_up] => 1000000000000
+    [limit_down] => 1000
+    [bet_volume_sum] => 1000
+    [start_mode] => 0
+    [auto_bet_begin] => 52012
+    [auto_bet_type] => 2
+    [auto_num_hash] => {"mode_3":"3"}
+    [game_id] => 2
+    [bet_volume_sum_back] => 1000
+    [is_forbid_auto_bet] => 0
+    [current_mode_id] => 0
+    [next_mode_id] => 0
+)
+
+2017-07-07 18:59:51
+Array
+(
+    [auto_bet_id] => 7
+    [user_id] => 313
+    [limit_up] => 1000000000000
+    [limit_down] => 1000
+    [bet_volume_sum] => 1000
+    [start_mode] => 0
+    [auto_bet_begin] => 52012
+    [auto_bet_type] => 2
+    [auto_num_hash] => {"mode_3":"3"}
+    [game_id] => 2
+    [bet_volume_sum_back] => 1000
+    [is_forbid_auto_bet] => 0
+    [current_mode_id] => 0
+    [next_mode_id] => 0
+)
+
+2017-07-07 18:59:54
+
+2017-07-07 19:00:19
+Array
+(
+    [auto_bet_id] => 7
+    [user_id] => 313
+    [limit_up] => 1000000000000
+    [limit_down] => 1000
+    [bet_volume_sum] => 1000
+    [start_mode] => 0
+    [auto_bet_begin] => 52009
+    [auto_bet_type] => 2
+    [auto_num_hash] => {"mode_3":"3","mode_4":"3","mode_5":"3","mode_6":"3","mode_7":"3","mode_8":"3","mode_9":"3","mode_10":"3","mode_11":"3","mode_12":"3","mode_13":"3","mode_14":"3","mode_15":"3","mode_16":"3","mode_17":"3","mode_18":"3"}
+    [game_id] => 2
+    [bet_volume_sum_back] => 1000
+    [is_forbid_auto_bet] => 0
+    [current_mode_id] => 0
+    [next_mode_id] => 0
+)
+
+2017-07-07 19:00:24
+Array
+(
+    [auto_bet_id] => 7
+    [user_id] => 313
+    [limit_up] => 1000000000000
+    [limit_down] => 1000
+    [bet_volume_sum] => 1000
+    [start_mode] => 0
+    [auto_bet_begin] => 52009
+    [auto_bet_type] => 2
+    [auto_num_hash] => {"mode_3":"3","mode_4":"3","mode_5":"3","mode_6":"3","mode_7":"3","mode_8":"3","mode_9":"3","mode_10":"3","mode_11":"3","mode_12":"3","mode_13":"3","mode_14":"3","mode_15":"3","mode_16":"3","mode_17":"3","mode_18":"3"}
+    [game_id] => 2
+    [bet_volume_sum_back] => 1000
+    [is_forbid_auto_bet] => 0
+    [current_mode_id] => 0
+    [next_mode_id] => 0
+)
+
+2017-07-07 19:00:27
+Array
+(
+    [auto_bet_id] => 7
+    [user_id] => 313
+    [limit_up] => 1000000000000
+    [limit_down] => 1000
+    [bet_volume_sum] => 1000
+    [start_mode] => 0
+    [auto_bet_begin] => 52009
+    [auto_bet_type] => 2
+    [auto_num_hash] => {"mode_3":"3","mode_4":"3","mode_5":"3","mode_6":"3","mode_7":"3","mode_8":"3","mode_9":"3","mode_10":"3","mode_11":"3","mode_12":"3","mode_13":"3","mode_14":"3","mode_15":"3","mode_16":"3","mode_17":"3","mode_18":"3"}
+    [game_id] => 2
+    [bet_volume_sum_back] => 1000
+    [is_forbid_auto_bet] => 0
+    [current_mode_id] => 0
+    [next_mode_id] => 0
+)
+
+2017-07-07 19:00:45
+
+2017-07-07 19:01:52
+
+2017-07-07 19:02:20
+Array
+(
+    [auto_bet_id] => 7
+    [user_id] => 313
+    [limit_up] => 1000000000000
+    [limit_down] => 1000
+    [bet_volume_sum] => 1000
+    [start_mode] => 0
+    [auto_bet_begin] => 52009
+    [auto_bet_type] => 2
+    [auto_num_hash] => {"mode_3":"3","mode_4":"3","mode_5":"3","mode_6":"3","mode_7":"3","mode_8":"3","mode_9":"3","mode_10":"3","mode_11":"3","mode_12":"3","mode_13":"3","mode_14":"3","mode_15":"3","mode_16":"3","mode_17":"3","mode_18":"3"}
+    [game_id] => 2
+    [bet_volume_sum_back] => 998
+    [is_forbid_auto_bet] => 0
+    [current_mode_id] => 0
+    [next_mode_id] => 0
+)
+
+2017-07-07 19:05:53
+
+2017-07-07 19:05:55
+
+2017-07-07 19:05:58
+
+2017-07-07 19:06:11
+
+2017-07-07 19:10:51
+Array
+(
+    [table1] => Array
+        (
+            [begin] => 6
+            [total] => 11
+            [end] => 16
+            [items] => Array
+                (
+                    [6] => 6
+                    [7] => 7
+                    [8] => 8
+                    [9] => 9
+                    [10] => 10
+                    [11] => 11
+                    [12] => 12
+                    [13] => 13
+                    [14] => 14
+                    [15] => 15
+                    [16] => 16
+                )
+
+        )
+
+    [table2] => Array
+        (
+            [begin] => 17
+            [total] => 11
+            [end] => 27
+            [items] => Array
+                (
+                    [17] => 17
+                    [18] => 18
+                    [19] => 19
+                    [20] => 20
+                    [21] => 21
+                    [22] => 22
+                    [23] => 23
+                    [24] => 24
+                    [25] => 25
+                    [26] => 26
+                    [27] => 27
+                )
+
+        )
+
+    [type] => assoc
+    [sum] => 28
+    [begin] => 0
+    [footer] => 1
+    [mid_begin] => 13
+    [mid_end] => 20
+    [big_begin] => 17
+    [big_end] => 27
+)
+
+2017-07-07 19:10:53
+Array
+(
+    [table1] => Array
+        (
+            [begin] => 6
+            [total] => 11
+            [end] => 16
+            [items] => Array
+                (
+                    [6] => 6
+                    [7] => 7
+                    [8] => 8
+                    [9] => 9
+                    [10] => 10
+                    [11] => 11
+                    [12] => 12
+                    [13] => 13
+                    [14] => 14
+                    [15] => 15
+                    [16] => 16
+                )
+
+        )
+
+    [table2] => Array
+        (
+            [begin] => 17
+            [total] => 11
+            [end] => 27
+            [items] => Array
+                (
+                    [17] => 17
+                    [18] => 18
+                    [19] => 19
+                    [20] => 20
+                    [21] => 21
+                    [22] => 22
+                    [23] => 23
+                    [24] => 24
+                    [25] => 25
+                    [26] => 26
+                    [27] => 27
+                )
+
+        )
+
+    [type] => assoc
+    [sum] => 28
+    [begin] => 0
+    [footer] => 1
+    [mid_begin] => 13
+    [mid_end] => 20
+    [big_begin] => 17
+    [big_end] => 27
+)
+
+2017-07-07 19:11:07
+Array
+(
+    [table1] => Array
+        (
+            [begin] => 1
+            [total] => 5
+            [end] => 5
+            [items] => Array
+                (
+                    [1] => 01
+                    [2] => 02
+                    [3] => 03
+                    [4] => 04
+                    [5] => 05
+                )
+
+        )
+
+    [table2] => Array
+        (
+            [begin] => 6
+            [total] => 5
+            [end] => 10
+            [items] => Array
+                (
+                    [6] => 06
+                    [7] => 07
+                    [8] => 08
+                    [9] => 09
+                    [10] => 10
+                )
+
+        )
+
+    [type] => assoc
+    [sum] => 10
+    [begin] => 0
+    [footer] => 1
+    [mid_begin] => 4
+    [mid_end] => 7
+    [big_begin] => 6
+    [big_end] => 10
+)
+
+2017-07-07 19:13:19
+Array
+(
+    [table1] => Array
+        (
+            [begin] => 1
+            [total] => 5
+            [end] => 5
+            [items] => Array
+                (
+                    [1] => 01
+                    [2] => 02
+                    [3] => 03
+                    [4] => 04
+                    [5] => 05
+                )
+
+        )
+
+    [table2] => Array
+        (
+            [begin] => 6
+            [total] => 5
+            [end] => 10
+            [items] => Array
+                (
+                    [6] => 06
+                    [7] => 07
+                    [8] => 08
+                    [9] => 09
+                    [10] => 10
+                )
+
+        )
+
+    [type] => assoc
+    [sum] => 10
+    [begin] => 0
+    [footer] => 1
+    [mid_begin] => 4
+    [mid_end] => 7
+    [big_begin] => 6
+    [big_end] => 10
+)
+
+2017-07-07 19:13:41
+Array
+(
+    [table1] => Array
+        (
+            [begin] => 1
+            [total] => 5
+            [end] => 5
+            [items] => Array
+                (
+                    [1] => 01
+                    [2] => 02
+                    [3] => 03
+                    [4] => 04
+                    [5] => 05
+                )
+
+        )
+
+    [table2] => Array
+        (
+            [begin] => 6
+            [total] => 5
+            [end] => 10
+            [items] => Array
+                (
+                    [6] => 06
+                    [7] => 07
+                    [8] => 08
+                    [9] => 09
+                    [10] => 10
+                )
+
+        )
+
+    [type] => assoc
+    [sum] => 10
+    [begin] => 0
+    [footer] => 1
+    [mid_begin] => 4
+    [mid_end] => 7
+    [big_begin] => 6
+    [big_end] => 10
+)
+
+2017-07-07 19:14:03
+Array
+(
+    [table1] => Array
+        (
+            [begin] => 1
+            [total] => 5
+            [end] => 5
+            [items] => Array
+                (
+                    [1] => 01
+                    [2] => 02
+                    [3] => 03
+                    [4] => 04
+                    [5] => 05
+                )
+
+        )
+
+    [table2] => Array
+        (
+            [begin] => 6
+            [total] => 5
+            [end] => 10
+            [items] => Array
+                (
+                    [6] => 06
+                    [7] => 07
+                    [8] => 08
+                    [9] => 09
+                    [10] => 10
+                )
+
+        )
+
+    [type] => assoc
+    [sum] => 10
+    [begin] => 0
+    [footer] => 1
+    [mid_begin] => 4
+    [mid_end] => 7
+    [big_begin] => 6
+    [big_end] => 10
+)
+
+2017-07-07 19:14:07
+Array
+(
+    [table1] => Array
+        (
+            [begin] => 1
+            [total] => 5
+            [end] => 5
+            [items] => Array
+                (
+                    [1] => 01
+                    [2] => 02
+                    [3] => 03
+                    [4] => 04
+                    [5] => 05
+                )
+
+        )
+
+    [table2] => Array
+        (
+            [begin] => 6
+            [total] => 5
+            [end] => 10
+            [items] => Array
+                (
+                    [6] => 06
+                    [7] => 07
+                    [8] => 08
+                    [9] => 09
+                    [10] => 10
+                )
+
+        )
+
+    [type] => assoc
+    [sum] => 10
+    [begin] => 0
+    [footer] => 1
+    [mid_begin] => 4
+    [mid_end] => 7
+    [big_begin] => 6
+    [big_end] => 10
+)
+
+2017-07-07 19:14:24
+Array
+(
+    [table1] => Array
+        (
+            [begin] => 1
+            [total] => 5
+            [end] => 5
+            [items] => Array
+                (
+                    [1] => 01
+                    [2] => 02
+                    [3] => 03
+                    [4] => 04
+                    [5] => 05
+                )
+
+        )
+
+    [table2] => Array
+        (
+            [begin] => 6
+            [total] => 5
+            [end] => 10
+            [items] => Array
+                (
+                    [6] => 06
+                    [7] => 07
+                    [8] => 08
+                    [9] => 09
+                    [10] => 10
+                )
+
+        )
+
+    [type] => assoc
+    [sum] => 10
+    [begin] => 0
+    [footer] => 1
+    [mid_begin] => 4
+    [mid_end] => 7
+    [big_begin] => 6
+    [big_end] => 10
+)
+
+2017-09-04 03:53:34
+Array
+(
+    [table1] => Array
+        (
+            [begin] => 1
+            [total] => 3
+            [end] => 3
+            [items] => Array
+                (
+                    [1] => 豹
+                    [2] => 对
+                    [3] => 顺
+                )
+
+        )
+
+    [table2] => Array
+        (
+            [begin] => 4
+            [total] => 2
+            [end] => 5
+            [items] => Array
+                (
+                    [4] => 半
+                    [5] => 杂
+                )
+
+        )
+
+    [type] => assoc
+    [sum] => 28
+    [begin] => 0
+    [footer] => 1
+    [mid_begin] => 2
+    [mid_end] => 4
+    [big_begin] => 14
+    [big_end] => 27
+)
+
+2017-09-04 03:54:26
+Array
+(
+    [table1] => Array
+        (
+            [begin] => 1
+            [total] => 3
+            [end] => 3
+            [items] => Array
+                (
+                    [1] => 豹
+                    [2] => 对
+                    [3] => 顺
+                )
+
+        )
+
+    [table2] => Array
+        (
+            [begin] => 4
+            [total] => 2
+            [end] => 5
+            [items] => Array
+                (
+                    [4] => 半
+                    [5] => 杂
+                )
+
+        )
+
+    [type] => assoc
+    [sum] => 28
+    [begin] => 0
+    [footer] => 1
+    [mid_begin] => 2
+    [mid_end] => 4
+    [big_begin] => 14
+    [big_end] => 27
+)
+
+2017-09-11 10:37:43
+Array
+(
+    [table1] => Array
+        (
+            [begin] => 0
+            [total] => 14
+            [end] => 13
+            [items] => Array
+                (
+                    [0] => 0
+                    [1] => 1
+                    [2] => 2
+                    [3] => 3
+                    [4] => 4
+                    [5] => 5
+                    [6] => 6
+                    [7] => 7
+                    [8] => 8
+                    [9] => 9
+                    [10] => 10
+                    [11] => 11
+                    [12] => 12
+                    [13] => 13
+                )
+
+        )
+
+    [table2] => Array
+        (
+            [begin] => 14
+            [total] => 13
+            [end] => 27
+            [items] => Array
+                (
+                    [0] => 14
+                    [1] => 15
+                    [2] => 16
+                    [3] => 17
+                    [4] => 18
+                    [5] => 19
+                    [6] => 20
+                    [7] => 21
+                    [8] => 22
+                    [9] => 23
+                    [10] => 24
+                    [11] => 25
+                    [12] => 26
+                    [13] => 27
+                )
+
+        )
+
+    [type] => index
+    [sum] => 28
+    [begin] => 0
+    [footer] => 1
+    [mid_begin] => 10
+    [mid_end] => 17
+    [big_begin] => 14
+    [big_end] => 27
+)
+
+2017-09-11 11:12:25
+Array
+(
+    [table1] => Array
+        (
+            [begin] => 0
+            [total] => 14
+            [end] => 13
+            [items] => Array
+                (
+                    [0] => 0
+                    [1] => 1
+                    [2] => 2
+                    [3] => 3
+                    [4] => 4
+                    [5] => 5
+                    [6] => 6
+                    [7] => 7
+                    [8] => 8
+                    [9] => 9
+                    [10] => 10
+                    [11] => 11
+                    [12] => 12
+                    [13] => 13
+                )
+
+        )
+
+    [table2] => Array
+        (
+            [begin] => 14
+            [total] => 13
+            [end] => 27
+            [items] => Array
+                (
+                    [0] => 14
+                    [1] => 15
+                    [2] => 16
+                    [3] => 17
+                    [4] => 18
+                    [5] => 19
+                    [6] => 20
+                    [7] => 21
+                    [8] => 22
+                    [9] => 23
+                    [10] => 24
+                    [11] => 25
+                    [12] => 26
+                    [13] => 27
+                )
+
+        )
+
+    [type] => index
+    [sum] => 28
+    [begin] => 0
+    [footer] => 1
+    [mid_begin] => 10
+    [mid_end] => 17
+    [big_begin] => 14
+    [big_end] => 27
+)

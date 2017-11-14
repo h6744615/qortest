@@ -1,0 +1,137 @@
+
+
+.cl{
+	float:left;
+	width:310px;	
+}
+.cr{
+	float:right;
+	width:870px; overflow:hidden; font-size:14px;
+}
+
+
+.hotshop{ background:#FFF;}
+.hotshopt{
+	background-color:#666;
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+	line-height:50px;
+	height:50px;
+}
+.hotshoplist ul{
+	padding:0px 8px 25px;
+	height:227px;
+}
+.hotshoplist li{ clear:both; height:60px; padding:15px 0; border-bottom:1px solid #EEE; font-size:12px; cursor:pointer;}
+.hotshoplist li:hover{ background:#F9F9F9;}
+.hotshoplist li img{ width:100px; margin:0 10px 0 20px; float:left;}
+.hotshoplist li h3{ font-size:13px; margin-top:10px;}
+.hotshoplist li p img{width:12px; float:none; margin:0 0 -1px 2px;}
+
+
+.shopxx{ background:#FFF; float:left; width:900px;}
+.shopxximg{
+	padding:0 40px 0 0;
+	float:left;
+}
+.shopxximg img{ width:310px; margin-left:40px; margin-top:18px;}
+.shopxxgm{
+	padding:50px 0px 0px 40px; border-left:1px dashed #ccc;
+	float:left;
+	color:#555;
+	width:400px;	
+}
+.shopxxgm .n{
+	font-size:19px;
+	color:#333;		
+}
+.shopxxgm .d{
+	color:#F00;	
+}
+.shopxxgm .n2{
+	margin-top:2px; font-size:12px;	
+}
+.shopxxgm .n2 img{ width:12px; margin:0 0 -1px 2px;}
+
+.shopxxgm .n3{
+	float:left;
+	width:400px;	
+	margin:0px 0px 12px 0;
+	font-size:14px;		
+}
+.shopxxgm .n3 div{
+	float:left;	
+	height:25px;
+	line-height:25px;
+}
+.goods_buy_num{	
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	width:120px;
+	margin:0 10px 0 0;
+}
+#jian,#jia{
+	width:30px;
+	background-color:#F5F7F6;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	text-align:center;
+	font-size:20px;
+	font-weight:700;
+}
+#num{
+	width:54px;
+	text-align:center;
+	font-size:18px;
+}
+
+.shopxxgm .n4{
+	margin:20px 0 30px 0;
+}
+
+.shoplc{ background:#FFF; text-align:center;}
+.shoplc img{width:280px; margin:0 auto;}
+
+
+.shopsm{padding:0 40px 40px 40px; float:left; background:#FFF; width:800px; line-height:24px;}
+.shopsm p{ font-size:13px;}
+.smt{
+	font-weight:700;
+	color:#444;	
+	margin:30px 0 10px 0;
+}
+
+.sm2 th,.sm2 td{
+	height:40px;
+	width:220px;
+	text-align:center;
+}
+.sm2 th{
+	background-color:#FC9222;
+	color:#fff;
+}
+.sm2 td{
+	background-color:#E0E0E0;
+	color:#555;
+}
+.sm3{line-height:25px; margin-top:48px;color:#555;	}
+
+
+
+.subNavBox{ background:#FFF;}
+a.subNav{ cursor:pointer; display:inline-block; color:#fff; background:#f60; width:90px; height:32px; text-align:center; line-height:32px; border-radius:2px;}
+a.currentDd{ background:#BBB;}
+.navContent{ display:none; background:#f3f3f3; padding:12px 20px 30px 20px; margin-bottom:20px; width:290px;}
+.navContent li{ margin-top:10px;}
+.navContent li span{ font-size:12px; color:#666;}
+.navContent li b{ width:75px; font-weight:normal; text-align:right; display:inline-block;}
+.navContent li input{ width:88px; height:25px; font-size:13px; border:1px solid #CCC; border-radius:2px; text-indent:10px; margin-right:5px;}
+.navContent li .btn-stress{ cursor:pointer; margin-top:10px; margin-left:75px; color:#fff; background:#f60; width:90px; height:32px; text-align:center; line-height:32px; border-radius:2px; border:none; font-size:13px;}
+.navContent li .btn-stress:hover{ background:#f50;}
+.navContent li a{ font-size:12px; letter-spacing:0; color:#F60;}
+.navContent li a:hover{ color:#F30;}
+
+.title{ font-size:15px; background:#FFF; border-bottom:1px solid #EEE; padding:8px 37px; border-left:3px solid #F60;}
+
+

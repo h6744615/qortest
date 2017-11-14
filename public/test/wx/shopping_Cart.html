@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css_js/mui.css">
+		<script src="css_js/mui.min.js"></script>
+	</head>
+
+	<body>
+		
+<style>
+.mui-ellipsis{ color: #333; font-size: 1em; height:35px;}
+.mui-table-view{background:none;}
+.mui-table-view-cell{ background: #fff; margin-bottom:8px; padding-left:0;}
+.mui-btn-danger i{ margin: 0 10px; opacity: 0.3; font-style: normal;}
+.mui-checkbox{float: left; margin-top: 20px;}
+.mui-numbox{ margin-top:-5px;}
+.mui-btn-block{ margin-bottom:0;margin-top: 25px; position:fixed; bottom:50px; border-radius: 0;}
+</style>
+
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="index.html">
+				<span class="mui-icon mui-icon-home"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item mui-active" href="shopping_Cart.html">
+				<span class="mui-icon mui-icon-shopCar"></span>
+				<span class="mui-tab-label">购物车</span>
+			</a>
+			<a class="mui-tab-item" href="member.html">
+				<span class="mui-icon mui-icon-jiameng"></span>
+				<span class="mui-tab-label">免费开店</span>
+			</a>
+			<a class="mui-tab-item" href="setting.html">
+				<span class="mui-icon mui-icon-contact"></span>
+				<span class="mui-tab-label">设置</span>
+			</a>
+		</nav>
+
+
+		<form class="mui-content" action="order.html">
+			<ul class="mui-table-view" style="margin-top: 0; margin-bottom:60px;">
+			    <li class="mui-table-view-cell mui-media">
+					<div class="mui-checkbox mui-left">
+						<label></label>
+						<input name="checkbox" value="Item 1" type="checkbox">
+					</div>
+					<img class="mui-media-object mui-pull-left" src="update/1.jpg">
+					<div class="mui-media-body">
+						<p class="mui-ellipsis">安溪铁观音春茶新茶</p>
+						<b class="red">￥768.00</b>
+						<div class="mui-numbox" data-numbox-step='1' data-numbox-min='0' data-numbox-max='30'>
+							<button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+							<input class="mui-numbox-input" value="1" type="number" />
+							<button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+						</div>
+					</div>
+				</li>
+			    <li class="mui-table-view-cell mui-media">
+					<div class="mui-checkbox mui-left">
+						<label></label>
+						<input name="checkbox" value="Item 1" type="checkbox">
+					</div>
+					<img class="mui-media-object mui-pull-left" src="update/5.jpg">
+					<div class="mui-media-body">
+						<p class="mui-ellipsis">小青柑</p>
+						<b class="red">￥480.00</b>
+						<div class="mui-numbox" data-numbox-step='1' data-numbox-min='0' data-numbox-max='30'>
+							<button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+							<input class="mui-numbox-input" value="1" type="number" />
+							<button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+						</div>
+					</div>
+				</li>
+			    <li class="mui-table-view-cell mui-media">
+					<div class="mui-checkbox mui-left">
+						<label></label>
+						<input name="checkbox" value="Item 1" type="checkbox">
+					</div>
+					<img class="mui-media-object mui-pull-left" src="update/4.jpg">
+					<div class="mui-media-body">
+						<p class="mui-ellipsis">普洱熟茶七子饼</p>
+						<b class="red">￥128.00</b>
+						<div class="mui-numbox" data-numbox-step='1' data-numbox-min='0' data-numbox-max='30'>
+							<button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+							<input class="mui-numbox-input" value="1" type="number" />
+							<button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+						</div>
+					</div>
+				</li>
+			</ul>
+		<button type="button" onclick="this.form.submit()" class="mui-btn mui-btn-danger mui-btn-block">¥900.00<i>｜</i>确认下单</button>
+		</form>
+		<script>
+			mui.init({
+				swipeBack:true //启用右滑关闭功能
+			});
+			mui('.mui-bar-tab').on('tap','a' ,function(){location.href = this.getAttribute('href')});
+		</script>
+
+	</body>
+
+</html>

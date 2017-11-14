@@ -1,0 +1,218 @@
+
+.trend { font-size:12px; margin:0 auto; width:1050px;}
+.trend .table{ width:1050px; overflow:hidden; margin:0 auto; clear:both;}
+.trend .table_list{ width:1050px; float:left;}
+.trend .table_list th{ height:28px; text-align:center; line-height:28px; font-size:12px; }
+
+.table_list {
+    background-color: #FFFFFF;
+    margin: 0 auto 10px;
+}
+.table_list th {
+    padding: 0;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+}
+.f14 {
+    font-size: 12px;
+    line-height: 200%;
+}
+.timeh th {
+    background-color: #FFFDE3;
+    background-image: none;
+    border: 1px solid #e4eaef;
+    color: #FF6600;
+    font-weight: normal;
+}
+
+.table_list td {
+    border: 1px solid #e4eaef;
+    color: #EDEDED;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    padding:0 ;
+    text-align: center;
+}
+.table_list .font_color_2 {
+	color:#888;
+}
+.black777 {
+    color: #5D5D5D;
+}
+.bgnum {
+    background: none repeat scroll 0 0 #E9FFE1;
+}
+.table_list .tdbg3 {
+    color: #3366CC;
+    font-size: 12px;
+}
+ 
+.table_list th.black777, .table_list td.black777 {
+    color: #777777;word-break:keep-all; white-space:nowrap;
+} 
+
+.table_list td em{ font-style:normal; background:#F70; border-radius:15px;display:inline-block; width:21px; height:21px;}
+.table_list td em.final{ height:22px; width:22px; position:relative;}
+.table_list td em.finals{ height:22px; width:22px; position:relative; top:5px}
+.table_list td em.final i{ width:22px; display:block; height:22px; text-align:center; color:#fff; line-height:22px; font-size: 14px; font-weight: bold; z-index:0;}
+ 
+.table_list td.black333 {
+    color: #333333;
+}
+.table_list td.bgkai01 {
+    background: none repeat scroll 0 0 #0033CC;
+}
+.table_list td.bgkai02 {
+    background: none repeat scroll 0 0 #FF3333;
+}
+.table_list td.bgkai03 {
+    background: none repeat scroll 0 0 #660099;
+}
+.table_list td.bgkai04 {
+    background: none repeat scroll 0 0 #FF9900;
+}
+.table_list td.bgkai05 {
+    background: none repeat scroll 0 0 #FF0099;
+}
+.table_list td.bgkai06 {
+    background: none repeat scroll 0 0 #00CC00;
+}
+.table_list td.bgkai07 {
+    background: none repeat scroll 0 0 #0033CC;
+}
+.table_list td.bgkai08 {
+    background: none repeat scroll 0 0 #FF3333;
+}
+
+
+
+.table_list td.gno{	
+	padding:0 15px;
+	color:#555
+}
+.table_list td.gtime{
+	padding:0 15px;
+	color:#555
+}
+
+.table_list td.he{
+	color:#900;
+}
+
+.table_list td.zhedx{
+	color:#018796;
+}
+.table_list td.zhelh{
+	color:#c00;
+}
+.table_list td.qs{
+	color:#f00;
+}
+.table_list td.zs{
+	color:#00f;
+}
+.table_list td.hs{
+	color:#fd00ff;
+}
+
+.table_list td.sc1{
+	color:#f00;
+}
+.table_list td.sc2{
+	color:#00c6ff;
+}
+.table_list .longhu tr td {
+    background: #fff none repeat scroll 0 0;
+    font-size: 10px !important;
+    height: 15px !important;
+    line-height: 15px !important;
+	color:#000
+}
+
+.table .table_list td em.regular01,.table .table_list td em.regular1{ background-position:0px 0px;}
+.table .table_list td em.regular02,.table .table_list td em.regular2{ background-position:0px -25px;}
+.table .table_list td em.regular03,.table .table_list td em.regular3{ background-position:0px -50px;}
+.table .table_list td em.regular04,.table .table_list td em.regular4{ background-position:0px -75px;}
+.table .table_list td em.regular05,.table .table_list td em.regular5{ background-position:0px -100px;}
+.table .table_list td em.regular06,.table .table_list td em.regular6{ background-position:0px -125px;}
+.table .table_list td em.regular07,.table .table_list td em.regular7{ background-position:0px -150px;}
+.table .table_list td em.regular08,.table .table_list td em.regular8{ background-position:0px -175px;}
+.table .table_list td em.regular09,.table .table_list td em.regular9{ background-position:0px -200px;}
+.table .table_list td em.regular10{ background-position:0px -225px;}
+
+
+td.regular em.number, .result .num {
+    background:url("../images/ball-nc.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 33px;
+    line-height: 20px;
+    margin: 2px 1px 0px 0;
+    padding: 0;
+    width: 32px;
+}
+td.regular em.number{
+	vertical-align:middle;
+	margin-top:0;
+}
+td.regular em.num01, .result .num01,.popup-body .table_list td label.num01 {
+    background-position: 0 0;
+}
+td.regular em.num02, .result .num02,.popup-body .table_list td label.num02 {
+    background-position: 0 -34px;
+}
+td.regular em.num03, .result .num03,.popup-body .table_list td label.num03 {
+    background-position: 0 -66px;
+}
+td.regular em.num04, .result .num04,.popup-body .table_list td label.num04 {
+    background-position: 0 -99px;
+}
+td.regular em.num05, .result .num05,.popup-body .table_list td label.num05 {
+    background-position: 0 -134px;
+}
+td.regular em.num06, .result .num06,.popup-body .table_list td label.num06 {
+    background-position: 0 -165px;
+}
+td.regular em.num07, .result .num07,.popup-body .table_list td label.num07 {
+    background-position: 0 -198px;
+}
+td.regular em.num08, .result .num08,.popup-body .table_list td label.num08 {
+    background-position: 0 -231px;
+}
+td.regular em.num09, .result .num09,.popup-body .table_list td label.num09 {
+    background-position: 0 -264px;
+}
+td.regular em.num10, .result .num10,.popup-body .table_list td label.num10 {
+    background-position: 0 -298px;
+}
+td.regular em.num11, .result .num11,.popup-body .table_list td label.num11 {
+    background-position: 0 -331px;
+}
+td.regular em.num12, .result .num12,.popup-body .table_list td label.num12 {
+    background-position: 0 -365px;
+}
+td.regular em.num13, .result .num13,.popup-body .table_list td label.num13 {
+    background-position: 0 -396px;
+}
+td.regular em.num14, .result .num14,.popup-body .table_list td label.num14 {
+    background-position: 0 -429px;
+}
+td.regular em.num15, .result .num15,.popup-body .table_list td label.num15 {
+    background-position: 0 -462px;
+}
+td.regular em.num16, .result .num16,.popup-body .table_list td label.num16 {
+    background-position: 0 -494px;
+}
+td.regular em.num17, .result .num17,.popup-body .table_list td label.num17 {
+    background-position: 0 -529px;
+}
+td.regular em.num18, .result .num18,.popup-body .table_list td label.num18 {
+    background-position: 0 -561px;
+}
+td.regular em.num19, .result .num19,.popup-body .table_list td label.num19 {
+    background-position: 0 -594px;
+}
+td.regular em.num20, .result .num20,.popup-body .table_list td label.num20 {
+    background-position: 0 -627px;
+}
